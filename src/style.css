@@ -1,7 +1,7 @@
 .alignment{
 
 display:flex;
-flex-direction: row;
-width: 50%;
+flex-direction: column;
+width: 20%;
 
 }
