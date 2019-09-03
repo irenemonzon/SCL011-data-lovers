@@ -8,7 +8,10 @@ for(let i = 0; i < listpokemon.length; i++){
   //Se crea un contenedor padre en el div root
   let cont = document.getElementById("root");
   // añadir atributos
-  cont.className ="alignment";
+ 
+  let contdata= document.createElement("div");
+  cont.appendChild(contdata);
+  contdata.className ="alignment";
 
 //se crea el elemento imagen
   let imagenpokemon=document.createElement("img");
@@ -23,12 +26,10 @@ for(let i = 0; i < listpokemon.length; i++){
   namepokemon.textContent= listpokemon[i].name;
 
 //se crean los elementos hijos en el contenedor padre
-
- cont.appendChild(imagenpokemon);
- cont.appendChild(numpokemon);
- cont.appendChild(namepokemon);
-
+ contdata.appendChild(imagenpokemon);
+ contdata.appendChild(numpokemon);
+ contdata.appendChild(namepokemon);
 // se visualiza en HTML
- //cont.innerHTML= <h1></h1><h3></h3><img></img>;
+
  cont.innerHTML;
 }
