@@ -1,9 +1,5 @@
 
-
-
 const listpokemon = window.POKEMON.pokemon;
-
-
 
 // recorrer el array y mostrar imagen, numero y nombre de 151 pokemones
 
@@ -35,18 +31,4 @@ for(let i = 0; i < listpokemon.length; i++){
 // se visualiza en HTML
  //cont.innerHTML= <h1></h1><h3></h3><img></img>;
  cont.innerHTML;
-
-}
-
-
-
-  
-
-
-
-//`<p class="texto"> hola </p>`
- cont.innerHTML;
-
-
-
 }
