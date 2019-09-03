@@ -1,5 +1,6 @@
 
 
+
 const listpokemon = window.POKEMON.pokemon;
 
 
@@ -26,6 +27,7 @@ for(let i = 0; i < listpokemon.length; i++){
   namepokemon.textContent= listpokemon[i].name;
 
 //se crean los elementos hijos en el contenedor padre
+
  cont.appendChild(imagenpokemon);
  cont.appendChild(numpokemon);
  cont.appendChild(namepokemon);
@@ -43,3 +45,8 @@ for(let i = 0; i < listpokemon.length; i++){
 
 
 //`<p class="texto"> hola </p>`
+ cont.innerHTML;
+
+
+
+}
