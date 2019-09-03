@@ -2,9 +2,14 @@
 
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
+//cambios
 
-const example = () => {
-  return 'example';
-};
+//const example = () => {
+ // return 'example';
+//};
 
-window.example = example;
+
+//document.write(POKEMON.pokemon[0].name);
+
+
+
