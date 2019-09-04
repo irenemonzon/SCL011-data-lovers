@@ -1,7 +1,35 @@
-.alignment{
-
-display:flex;
-flex-direction: column;
-width: 20%;
-
+body{
+ font-family: 'Roboto';
+ font-size: 10pt;
+ width: 100%;
 }
+
+.root-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+h3{
+ font-size: 1.3em;
+ font-weight: 500;
+ color: lightslategrey;
+ margin: 5% auto 0.1%;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.5%;
+  }
+
+  
