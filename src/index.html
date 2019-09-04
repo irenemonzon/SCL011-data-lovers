@@ -3,11 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   </head>
+
   <body>
+    <div class="body-container">
+    <div class="menu-bar">
+        <a type="button">Filtros de búsqueda</a>
+        <nav class=menu-filtros>
+        <li id="btnType">Tipo</li>
+        <li id="btnWeakness">Debilidad</li>
+        <li id="btnSpawn">Spawn</li>
+        </nav>
+    </div>
     <div id="root" class="root-container">
     </div>
+  </div>
     <script src="./data/pokemon/pokemon.js"></script> 
     <script src="data.js"></script>
     <script src="main.js"></script>
