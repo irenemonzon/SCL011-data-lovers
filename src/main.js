@@ -11,7 +11,7 @@ for(let i = 0; i < listpokemon.length; i++){
  
   let contdata= document.createElement("div");
   cont.appendChild(contdata);
-  contdata.className ="alignment";
+  contdata.className ="flex-container";
 
 //se crea el elemento imagen
   let imagenpokemon=document.createElement("img");
@@ -19,7 +19,7 @@ for(let i = 0; i < listpokemon.length; i++){
 
 // se crea el elemento numero
   let numpokemon= document.createElement("h3");
-  numpokemon.textContent= listpokemon[i].num;
+  numpokemon.textContent= '#'+listpokemon[i].num;
 
 // se crea el elemento nombre
   let namepokemon= document.createElement("h1");
@@ -31,5 +31,5 @@ for(let i = 0; i < listpokemon.length; i++){
  contdata.appendChild(namepokemon);
 // se visualiza en HTML
 
- cont.innerHTML;
+//cont.innerHTML;
 }
