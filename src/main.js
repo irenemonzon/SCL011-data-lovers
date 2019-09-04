@@ -31,5 +31,17 @@ for(let i = 0; i < listpokemon.length; i++){
  contdata.appendChild(namepokemon);
 // se visualiza en HTML
 
- cont.innerHTML;
 }
+
+const pokemonfilter= listpokemon.filter(x => x.type=='Poison' );
+
+
+//for (let i = 0; i < pokemonfilter.length; i++)
+//{
+  // let filtroName = listpokemon[i].name;
+  // console.log(filtroName);
+//}
+
+
+
+console.log(pokemonfilter);
