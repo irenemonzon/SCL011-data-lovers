@@ -24,6 +24,7 @@ for(let i = 0; i < listpokemon.length; i++){
 // se crea el elemento nombre
   let namepokemon= document.createElement("h1");
   namepokemon.textContent= listpokemon[i].name;
+  namepokemon.className = "title";
 
 //se crean los elementos hijos en el contenedor padre
  contdata.appendChild(imagenpokemon);
