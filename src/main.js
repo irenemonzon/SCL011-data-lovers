@@ -34,30 +34,43 @@ for(let i = 0; i < listpokemon.length; i++){
 }
 
 // filtrado por tipo
+
 const buttonfilter= document.getElementById("btnType");
 buttonfilter.addEventListener('click',()=>{
-
+//Toma el valor del select
+    let typetext=document.getElementById("typepokemon").value;
+       
+//se realiza el filtrado y muestra todo el objeto
     let pokemonfilter =listpokemon.filter(element=>{
-        return element.type=='Poison';
+        
+        return element.type == typetext;
     })
+
+    //se guarda la constante para imprimir el el contenedor root
     
     const showfilterpokemon= document.getElementById("root");
 
+    // se recorre cada elemento del objeto y se imprimen en el contenedor de los personajes
+
      showfilterpokemon.innerHTML= pokemonfilter.map (element => {
-     // return element.spawn_chance;
-      return  ` <div class="flex-container">
+    
+      return  `<div class="flex-container">
                  <img src="${element.img}">
-                 <h3> # ${element.num}</h3>
+                 <a href=""> # ${element.num}</a>
                  <h1> ${element.name}</h1>
                  </div>`
              
     }).join("");
 
-    //console.log(showfilterpokemon1);
-    //showfilterpokemon1.innerHTML = showfilterpokemon;
+    
 });
 
+const returnhome= document.getElementById("return");
+returnhome.addEventListener('click',()=>{
 
+    location.reload();
+
+});
 
 
 
