@@ -7,40 +7,39 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
     <div class="body-container">
-    <div class="menu-bar">
-        <p>Filtros de búsqueda</p>
-        <nav class=menu-filtros>
-        <li id="btnType" class="title">Tipo</li>
-          <ul>
-            <a href=# type="button" id="typeSteel" value='steel' class="type">Acero</a>
-            <a href=# type="button" id="typeWater" value='water' class="type">Agua</a>
-            <a href=# type="button" id="typeBug" value='bug' class="type">Bicho</a>
-            <a href=# type="button" id="typeDragon" value='dragon' class="type">Dragón</a>
-            <a href=# type="button" id="typeElectric" value='electric' class="type">Eléctrico</a>
-            <a href=# type="button" id="typeGhost" value='ghost' class="type">Fantasma</a>
-            <a href=# type="button" id="typeFire" value='fire' class="type">Fuego</a>
-            <a href=# type="button" id="typeFairy" value='fairy' class="type">Hada</a>
-            <a href=# type="button" id="typeIce" value='ice' class="type">Hielo</a>
-            <a href=# type="button" id="typeFighting" value='figthing' class="type">Lucha</a>
-            <a href=# type="button" id="typeNormal" value='normal' class="type">Normal</a>
-            <a href=# type="button" id="typeGrass" value='grass' class="type">Planta</a>
-            <a href=# type="button" id="typePsychic" value='Psychic' class="type">Psíquico</a>
-            <a href=# type="button" id="typeRock" value='rock' class="type">Roca</a>
-            <a href=# type="button" id="typeDark" value='dark' class="type">Siniestro</a>
-            <a href=# type="button" id="typeGround" value='ground' class="type">Tierra</a>
-            <a href=# type="button" id="typePoison" value='poison' class="type">Veneno</a>
-            <a href=# type="button" id="typeFlying" value='flying' class="type">Volador</a>
-          </ul>
-        <li id="btnWeakness" class="title">Debilidad</li>
-        <li id="btnSpawn" class="title">Spawn</li>
-        </nav>
+    <div class="menu-bar" class="col-1">
+        <!--<p>Filtros de búsqueda</p>
+        <nav class=menu-filtros>-->
+        <a type=button id="btnType" class="title" href=#>Tipo</a>
+          <!--<ul>
+          <li><a href=# type="button" id="typeSteel" value='steel' class="type">Acero</a></li>
+          <li><a href=# type="button" id="typeWater" value='water' class="type">Agua</a></li>
+          <li><a href=# type="button" id="typeBug" value='bug' class="type">Bicho</a></li>
+          <li><a href=# type="button" id="typeDragon" value='dragon' class="type">Dragón</a><li>
+          <li><a href=# type="button" id="typeElectric" value='electric' class="type">Eléctrico</a></li>
+          <li><a href=# type="button" id="typeGhost" value='ghost' class="type">Fantasma</a><li>
+          <li><a href=# type="button" id="typeFire" value='fire' class="type">Fuego</a></li>
+          <li><a href=# type="button" id="typeFairy" value='fairy' class="type">Hada</a></li>
+          <li><a href=# type="button" id="typeIce" value='ice' class="type">Hielo</a></li>
+          <li><a href=# type="button" id="typeFighting" value='figthing' class="type">Lucha</a></li>
+          <li><a href=# type="button" id="typeNormal" value='normal' class="type">Normal</a></li>
+          <li><a href=# type="button" id="typeGrass" value='grass' class="type">Planta</a></li>
+          <li><a href=# type="button" id="typePsychic" value='Psychic' class="type">Psíquico</a></li>
+          <li><a href=# type="button" id="typeRock" value='rock' class="type">Roca</a></li>
+          <li><a href=# type="button" id="typeDark" value='dark' class="type">Siniestro</a></li>
+          <li><a href=# type="button" id="typeGround" value='ground' class="type">Tierra</a></li>
+          <li><a href=# type="button" id="typePoison" value='poison' class="type">Veneno</a></li>
+          <li><a href=# type="button" id="typeFlying" value='flying' class="type">Volador</a></li>
+          </ul>-->
+        <a type=button id="btnWeakness" class="title" href=#>Debilidad</a>
+        <a type=button id="btnSpawn" class="title" href=#>Spawn</a>
     </div>
-    <div id="root" class="root-container">
+    <div id="root" class="root-container" class="col-2">
     </div>
   </div>
     <script src="./data/pokemon/pokemon.js"></script> 
