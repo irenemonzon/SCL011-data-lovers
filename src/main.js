@@ -31,8 +31,36 @@ for(let i = 0; i < listpokemon.length; i++){
  contdata.appendChild(namepokemon);
 // se visualiza en HTML
 
-
 }
 
+// filtrado por tipo
+const buttonfilter= document.getElementById("btnType");
+buttonfilter.addEventListener('click',()=>{
+
+    let pokemonfilter =listpokemon.filter(element=>{
+        return element.type=='Poison';
+    })
+    
+    const showfilterpokemon= document.getElementById("root");
+
+     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
+     // return element.spawn_chance;
+      return  ` <div class="flex-container">
+                 <img src="${element.img}">
+                 <h3> # ${element.num}</h3>
+                 <h1> ${element.name}</h1>
+                 </div>`
+             
+    }).join("");
+
+    //console.log(showfilterpokemon1);
+    //showfilterpokemon1.innerHTML = showfilterpokemon;
+});
+
+
+
+
+
+=======
 const pokemonfilter= listpokemon.filter(x => x.type=='Poison' );
 console.log(pokemonfilter);
