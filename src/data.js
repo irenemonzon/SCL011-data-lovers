@@ -9,7 +9,5 @@
 //};
 
 
-//document.write(POKEMON.pokemon[0].name);
-
 
 
