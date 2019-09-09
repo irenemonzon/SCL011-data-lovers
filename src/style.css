@@ -3,20 +3,16 @@ body{
  font-size: 10pt;
 }
 
-.body-container{
+.body-container, .root-container{
     display: flex;
     flex-direction: row;
+
+}
+body, .body-container{
     width: 100%;
 }
 
-.menu-bar{
-    width: 20%;
-    margin: 5% 0 0 5%;
-}
-
 .root-container{
-    display: flex;
-    flex-direction: row;
     flex-flow: wrap;
     width: 80%;
     justify-content: center;
@@ -35,11 +31,64 @@ h3{
  margin: 5% auto 0.1%;
 }
 
+
 h1{
+    text-align: center;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 20%;
+    margin: 5% 0 0 5%;
+}
+
+.title{
     font-size: 1.5em;
     font-weight: 400;
-    text-align: center;
     margin: 0.5%;
-  }
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
 
-  
+@media screen and (max-width: 400px){
+ .body-container, .menu-bar .root-container{
+     flex-direction: column;
+ }
+}
+
+.type{
+    font-weight: lighter;
+    font-size: 1.2em;
+    color: white;
+    width: 45%;
+    padding: 2% 2% 3%;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+#typeSteel{
+    background-image: linear-gradient( rgba(201, 201, 201, 1), rgba(108, 108, 108, 1));
+}
+
+#typeWater{
+    background-image: linear-gradient( rgba(91, 186, 255, 1), rgb(109, 62, 62));
+}
+
+#typeWater{
+    background-image: linear-gradient( rgba(91, 186, 255, 1), rgb(109, 62, 62));
+}
+
+#typeWater{
+    background-image: linear-gradient( rgba(91, 186, 255, 1), rgb(109, 62, 62));
+}
+
+#typeWater{
+    background-image: linear-gradient( rgba(91, 186, 255, 1), rgb(109, 62, 62));
+}
+
+#typeWater{
+    background-image: linear-gradient( rgba(91, 186, 255, 1), rgb(109, 62, 62));
+}
