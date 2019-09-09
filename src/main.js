@@ -29,6 +29,7 @@ for(let i = 0; i < listpokemon.length; i++){
     contdata.appendChild(namepokemon);
     }
 
+
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);
 
@@ -36,24 +37,52 @@ function showfilter(){
    //Toma el valor del select
     let typepokemonselect=document.getElementById("typepokemon").value;
 
-    //se realiza el filtrado y muestra todo el objeto
-    let pokemonfilter =listpokemon.filter(element=>{
-        
-        return element.type == typepokemonselect;
-    })
-    //se guarda la constante para imprimir el el contenedor root
     const showfilterpokemon= document.getElementById("root");
-
     // se recorre cada elemento del objeto y se imprimen en el contenedor de los personajes
-     let pokemonfilter2= pokemonfilter.map (element => {
-      return  `<div class="flex-container">
-                    <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
-                    <h3># ${element.num}</h3>
-                    <h1> ${element.name}</h1>
-                 </div>`        
-                }).join("");
-    showfilterpokemon.innerHTML= pokemonfilter2; 
+    
+    let pokemonfilter= window.data.filterpokemon(listpokemon, typepokemonselect); 
+
+     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
+        return  `<div class="flex-container">
+                      <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
+                      <h3># ${element.num}</h3>
+                      <h1> ${element.name}</h1>
+                   </div>`        
+                  }).join("");
+   
     } 
+
+    //llamado a la funcion ordenar con select
+document.getElementById("ordenpokemon").addEventListener("change",showorden);
+
+function showorden(){
+
+    const showordenpokemon= document.getElementById("root");
+    let ordenpokemon1 =document.getElementById("ordenpokemon").value;
+   
+    let ordenpokemonup =window.data.ordenpokemon(listpokemon,ordenpokemon1) 
+
+    showordenpokemon.innerHTML= ordenpokemonup.map (element => {
+        return  `<div class="flex-container">
+                 <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
+                 <h3># ${element.num}</h3>
+                 <h1> ${element.name}</h1>
+                 </div>`        
+                 }).join(""); 
+
+    let ordenpokemondown = window.data.ordenpokemon(listpokemon,ordenpokemon1) 
+    showordenpokemon.innerHTML= ordenpokemondown.map (element => {
+        return  `<div class="flex-container">
+                 <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
+                 <h3># ${element.num}</h3>
+                 <h1> ${element.name}</h1>
+                 </div>`        
+                 }).join("");
+   }
+
+   /* 
+
+
 
     //llamado a la funcion ordenar con select
  document.getElementById("ordenpokemon").addEventListener("change",showorden);
@@ -107,3 +136,4 @@ returnhome.addEventListener('click',()=>{
     location.reload();
 
 });
+*/
