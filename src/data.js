@@ -7,6 +7,15 @@ window.data= {
         return pokemonfilter;
     }, 
 
+  filterByWeakness:(listpokemon,weaknessSelect)=>{
+
+    let weaknessFilter =listpokemon.filter(element=>{
+        return element.weaknesses.includes(weaknessSelect);
+      })
+        return weaknessFilter;
+    
+      }, 
+
   ordenpokemon:(listpokemon,ordenpokemon1)=>{
 
   // condicion para el ordenado

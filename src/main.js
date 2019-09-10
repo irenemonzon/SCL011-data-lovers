@@ -81,7 +81,25 @@ function showorden(){
                  }).join("");
    }
 
-  
+   //Filtrado por Debilidad
+   const pokemonWeakness = document.getElementById("pokemonWeakness");
+   pokemonWeakness.addEventListener("change", filterByWeakness);
+
+   function filterByWeakness(){
+       let weaknessSelect = document.getElementById("pokemonWeakness").value;
+       const weaknessResult = document.getElementById("root");
+       
+   let weaknessFilter = window.data.filterByWeakness(listpokemon,weaknessSelect);
+   weaknessResult.innerHTML = weaknessFilter.map(element =>{
+       return `<div class="flex-container">
+              <a href=# id="pokemoncard"><img src="${element.img}"></a>
+              <h3># ${element.num}</h3>
+              <h1>${element.name}</h1>
+              </div>`
+              }).join("");
+
+   }
+
  // boton de regresar    
 const returnhome= document.getElementById("return");
 returnhome.addEventListener('click',()=>{
