@@ -1,12 +1,10 @@
 window.data= {
 
   filterpokemon:(listpokemon,typepokemonselect)=>{
-
     let pokemonfilter =listpokemon.filter(element=>{
-        return element.type == typepokemonselect;
+        return element.type.includes(typepokemonselect) ;
     })
         return pokemonfilter;
-  
     }, 
 
   ordenpokemon:(listpokemon,ordenpokemon1)=>{
@@ -23,7 +21,6 @@ window.data= {
   }
   
 else {
-
     const ordenpokemondown=listpokemon.sort((x,y)=>
   {
     return (x.name> y.name)?-1:1
@@ -32,8 +29,4 @@ else {
    }
 
 }
-
-
-
-
 }
