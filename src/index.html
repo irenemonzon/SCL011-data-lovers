@@ -13,21 +13,35 @@
   <body>
     <div class="body-container">
     <div class="menu-bar">
-        <a type="button">Filtros de búsqueda</a>
+        <a>Filtros de búsqueda</a>
         <nav class=menu-filtros>
-        <a href=# type= "button" id="btnType">Tipo</a>
+
         <select id="typepokemon"> 
+            <option selected disabled>--Seleccione Tipo--
             <option value="Fire">Fuego 
             <option value="Water"> Agua
             <option value="Electric">Electrico
             <option value="Poison">Veneno 
             <option value="Grass"> Hierba
             <option value="Bug"> Insecto
+            <option value="Normal"> Normal
+            <option value="Ground">Tierra
+            <option value="Fighting">Lucha 
+            <option value="Psychic"> Psiquica
+            <option value="Dragon">Dragon
             </select> 
-            <br> 
+            <br>
       
         <li id="btnWeakness">Debilidad</li>
         <li id="btnSpawn">Spawn</li>
+       
+        <select id="ordenpokemon" >
+        <option selected disabled>--Ordenar por nombre--
+        <option   value="ABC"> A - Z
+        <option   value="CBA"> Z - A
+        </select>
+          <br>
+
         <a href=# type= "button" id="return">Home</a>
         </nav>
     </div>

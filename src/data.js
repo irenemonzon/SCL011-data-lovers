@@ -1,15 +1,39 @@
-/* Manejo de data */
+window.data= {
 
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
-//cambios
+  filterpokemon:(listpokemon,typepokemonselect)=>{
 
-//const example = () => {
- // return 'example';
-//};
+    let pokemonfilter =listpokemon.filter(element=>{
+        return element.type == typepokemonselect;
+    })
+        return pokemonfilter;
+  
+    }, 
+
+  ordenpokemon:(listpokemon,ordenpokemon1)=>{
+
+  // condicion para el ordenado
+  if(ordenpokemon1==='ABC'){
+    const ordenpokemonup=listpokemon.sort((x,y)=>
+  {
+  //me retorna -1 si es verdadero, y 1 si es falso y me devuelve el array con los objetos
+  return (x.name< y.name)?-1:1
+  })
+  // se recorre el array para imprimir solo los elementos que se necesita
+    return   ordenpokemonup;   
+  }
+  
+else {
+
+    const ordenpokemondown=listpokemon.sort((x,y)=>
+  {
+    return (x.name> y.name)?-1:1
+  })
+          return ordenpokemondown;      
+   }
+
+}
 
 
-//document.write(POKEMON.pokemon[0].name);
 
 
-
+}
