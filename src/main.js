@@ -9,7 +9,7 @@ for(let i = 0; i < listpokemon.length; i++){
   // se crea un div hijo de root y se le da un atributo
     let contdata= document.createElement("div");
     cont.appendChild(contdata);
-    contdata.className ="flex-container";
+    contdata.className ="pokemon-info";
 
 //se crea el elemento imagen
     let imagenpokemon=document.createElement("img");

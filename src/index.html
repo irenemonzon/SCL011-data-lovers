@@ -11,8 +11,8 @@
   </head>
 
   <body>
-    <div class="body-container">
-    <div class="menu-bar">
+    <div class="container">
+    <div class="menu">
         <a>Filtros de búsqueda</a>
       
         <select id="typepokemon"> 
@@ -49,7 +49,7 @@
             <option value="Poison">Veneno </option>
             </select> 
             <br>
-        <select id="ordenpokemon" >
+        <select id="ordenpokemon" class="orden-select" >
             <option selected disabled>--Ordenar por nombre--</option> 
             <option   value="ABC"> A - Z </option>
            <option   value="CBA"> Z - A</option>
@@ -59,7 +59,7 @@
         <a href="" type="button" id="return">Home</a>
         
     </div>
-    <div id="root" class="root-container">
+    <div id="root" class="pokemon">
     </div>
   </div>
     <script src="./data/pokemon/pokemon.js"></script> 
