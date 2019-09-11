@@ -30,8 +30,6 @@ for(let i = 0; i < listpokemon.length; i++){
     contdata.appendChild(numpokemon);
     contdata.appendChild(namepokemon);
     }
-
-
     
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);
@@ -52,9 +50,7 @@ function showfilter(){
                       <h1> ${element.name}</h1>
                    </div>`        
                   }).join("");
-   
     } 
-
     //llamado a la funcion ordenar con select
 document.getElementById("ordenpokemon").addEventListener("change",showorden);
 
