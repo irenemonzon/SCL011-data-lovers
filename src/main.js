@@ -18,10 +18,12 @@ for(let i = 0; i < listpokemon.length; i++){
 // se crea el elemento numero
     let numpokemon= document.createElement("h3");
     numpokemon.textContent= '#'+listpokemon[i].num;
+    numpokemon.className="pokemon-number"
 
 // se crea el elemento nombre
     let namepokemon= document.createElement("h1");
     namepokemon.textContent= listpokemon[i].name;
+    namepokemon.className="pokemon-name"
 
 //se crean los elementos hijos en el contenedor padre, para visualizar en HTML
     contdata.appendChild(imagenpokemon);
@@ -42,10 +44,10 @@ function showfilter(){
     let pokemonfilter= window.data.filterpokemon(listpokemon, typepokemonselect); 
 
      showfilterpokemon.innerHTML= pokemonfilter.map (element => {
-        return  `<div class="flex-container">
+        return  `<div class="pokemon-info">
                       <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
-                      <h3># ${element.num}</h3>
-                      <h1> ${element.name}</h1>
+                      <h3 class="pokemon-number"># ${element.num}</h3>
+                      <h1 class= "pokemon-name"> ${element.name}</h1>
                    </div>`        
                   }).join("");
     } 
@@ -60,19 +62,19 @@ function showorden(){
     let ordenpokemonup =window.data.ordenpokemon(listpokemon,ordenpokemon1) 
 
     showordenpokemon.innerHTML= ordenpokemonup.map (element => {
-        return  `<div class="flex-container">
+        return  `<div class="pokemon-info">
                  <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
-                 <h3># ${element.num}</h3>
-                 <h1> ${element.name}</h1>
+                 <h3 class="pokemon-number"># ${element.num}</h3>
+                 <h1 class="pokemon-name"> ${element.name}</h1>
                  </div>`        
                  }).join(""); 
 
     let ordenpokemondown = window.data.ordenpokemon(listpokemon,ordenpokemon1) 
     showordenpokemon.innerHTML= ordenpokemondown.map (element => {
-        return  `<div class="flex-container">
+        return  `<div class="pokemon-info">
                  <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
-                 <h3># ${element.num}</h3>
-                 <h1> ${element.name}</h1>
+                 <h3 class="pokemon-number" ># ${element.num}</h3>
+                 <h1 class= "pokemon-name"> ${element.name}</h1>
                  </div>`        
                  }).join("");
    }
@@ -87,10 +89,10 @@ function showorden(){
        
    let weaknessFilter = window.data.filterByWeakness(listpokemon,weaknessSelect);
    weaknessResult.innerHTML = weaknessFilter.map(element =>{
-       return `<div class="flex-container">
+       return `<div class="pokemon-info">
               <a href=# id="pokemoncard"><img src="${element.img}"></a>
-              <h3># ${element.num}</h3>
-              <h1>${element.name}</h1>
+              <h3 class = "pokemon-number"># ${element.num}</h3>
+              <h1 class="pokemon-name">${element.name}</h1>
               </div>`
               }).join("");
 
