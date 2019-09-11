@@ -7,6 +7,12 @@ window.data= {
         return pokemonfilter;
     }, 
 
+   //Porcentdatapokemon:(showpokemonfilter2,typepokemonselect) =>{
+     //const porcentfiltertype=showpokemonfilter2.map()
+
+
+  // },
+
   filterByWeakness:(listpokemon,weaknessSelect)=>{
 
     let weaknessFilter =listpokemon.filter(element=>{

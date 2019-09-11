@@ -1,36 +1,16 @@
 const listpokemon = window.POKEMON.pokemon;
 
-// recorrer el array y mostrar imagen, numero y nombre de 151 pokemones
-for(let i = 0; i < listpokemon.length; i++){
+const showalldata= document.getElementById("root");
 
-  //Se crea un contenedor padre en el div root
-    let cont = document.getElementById("root");
-  
-  // se crea un div hijo de root y se le da un atributo
-    let contdata= document.createElement("div");
-    cont.appendChild(contdata);
-    contdata.className ="pokemon-info";
+let alldatapokemon = listpokemon.map (element => {
+    return  `<div class="pokemon-info">
+                  <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
+                  <h3 class="pokemon-number"># ${element.num}</h3>
+                  <h1 class= "pokemon-name"> ${element.name}</h1>
+               </div>`        
+              }).join("");
+showalldata.innerHTML=alldatapokemon; 
 
-//se crea el elemento imagen
-    let imagenpokemon=document.createElement("img");
-    imagenpokemon.src= listpokemon[i].img;
-
-// se crea el elemento numero
-    let numpokemon= document.createElement("h3");
-    numpokemon.textContent= '#'+listpokemon[i].num;
-    numpokemon.className="pokemon-number"
-
-// se crea el elemento nombre
-    let namepokemon= document.createElement("h1");
-    namepokemon.textContent= listpokemon[i].name;
-    namepokemon.className="pokemon-name"
-
-//se crean los elementos hijos en el contenedor padre, para visualizar en HTML
-    contdata.appendChild(imagenpokemon);
-    contdata.appendChild(numpokemon);
-    contdata.appendChild(namepokemon);
-    }
-    
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);
 
@@ -43,14 +23,23 @@ function showfilter(){
     
     let pokemonfilter= window.data.filterpokemon(listpokemon, typepokemonselect); 
 
-     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
+    // hacer calculo de porcentaje por tipo
+    let pokemoncon=pokemonfilter.length;
+    let pokemontotal=listpokemon.length;
+    let porcentpokemon =(pokemoncon/pokemontotal)*100;
+    console.log(porcentpokemon);
+
+   
+    let showpokemonfilter2= pokemogitnfilter.map (element => {
         return  `<div class="pokemon-info">
                       <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
                       <h3 class="pokemon-number"># ${element.num}</h3>
                       <h1 class= "pokemon-name"> ${element.name}</h1>
                    </div>`        
                   }).join("");
-    } 
+    showfilterpokemon.innerHTML=showpokemonfilter2; 
+     
+}
     //llamado a la funcion ordenar con select
 document.getElementById("ordenpokemon").addEventListener("change",showorden);
 
