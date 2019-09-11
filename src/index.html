@@ -2,17 +2,16 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   </head>
 
   <body>
-    <div class="body-container">
-    <div class="menu-bar">
+    <div class="container">
+
+      <div class="menu">
         <a>Filtros de búsqueda</a>
         
 
@@ -38,35 +37,34 @@
             
       
           <select id="pokemonWeakness"> 
-            <option selected disabled>Selecciona una Debilidad
-            <option value="Water">Agua
-            <option value="Dragon">Dragon
-            <option value="Electric">Electrico
-            <option value="Fire">Fuego 
-            <option value="Grass"> Hierba
-            <option value="Bug"> Insecto
-            <option value="Fighting">Lucha
-            <option value="Normal"> Normal
-            <option value="Psychic"> Psíquico
-            <option value="Ground">Tierra
-            <option value="Poison">Veneno 
+            <option selected disabled>Selecciona una Debilidad</option>
+            <option value="Water">Agua</option>
+            <option value="Dragon">Dragon</option>
+            <option value="Electric">Electrico</option>
+            <option value="Fire">Fuego</option>
+            <option value="Grass">Hierba</option>
+            <option value="Bug">Insecto</option>
+            <option value="Fighting">Lucha</option>
+            <option value="Normal">Normal</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Ground">Tierra</option>
+            <option value="Poison">Veneno </option>
             </select> 
             <br>
-
-        <li id="btnSpawn">Spawn</li>
        
-        <select id="ordenpokemon" >
+        <select id="ordenpokemon" class="order-select" >
         <option selected disabled>--Ordenar por nombre--</option> 
         <option   value="ABC"> A - Z </option>
         <option   value="CBA"> Z - A</option>
         </select>
-          <br>
+        <br>
 
         <a href="" type="button" id="return">Home</a>
-        
     </div>
-    <div id="root" class="root-container">
+    
+    <div id="root" class="pokemon">
     </div>
+
   </div>
     <script src="./data/pokemon/pokemon.js"></script> 
     <script src="data.js"></script>
