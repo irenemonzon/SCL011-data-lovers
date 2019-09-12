@@ -24,8 +24,7 @@ describe('data.filterpokemon', () => {
   });
 
   it('debería retornar el objeto  Bulbasaur al filtrar por tipo Grass', () => {
-    assert.deepEqual(window.data.filterpokemon(muestra,"Grass"),[{
-      "name": "Bulbasaur","type": ["Grass"]}]
+    assert.deepEqual(window.data.filterpokemon(muestra,"Grass"),[{"name": "Bulbasaur","type": ["Grass"]}]
       );
    })
   })
@@ -50,8 +49,7 @@ describe('data.filterByWeakness', () => {
   });
 
   it('debería retornar el objeto  Bulbasaur al filtrar por  debilidad Fire', () => {
-    assert.deepEqual(window.data.filterByWeakness(muestra,"Fire"),[{
-      "name": "Bulbasaur","weaknesses":["Fire" ]}]
+    assert.deepEqual(window.data.filterByWeakness(muestra,"Fire"),[{"name": "Bulbasaur","weaknesses":["Fire" ]}]
       );
    });
   }) 
@@ -73,8 +71,7 @@ describe('data.filterByWeakness', () => {
     });
   
     it('debería retornar el objeto Bulbasaur, Ivysaur, Venasaur al ordenar por ABC', () => {
-      assert.deepEqual(window.data.ordenpokemon(muestra,"ABC"),[{
-        "name": "Bulbasaur"},{"name":"Ivysaur"},{"name":"Venusaur"}]
+      assert.deepEqual(window.data.ordenpokemon(muestra,"ABC"),[{ "name": "Bulbasaur"},{"name":"Ivysaur"},{"name":"Venusaur"}]
         );
      });
 

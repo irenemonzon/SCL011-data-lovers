@@ -13,7 +13,6 @@ window.data= {
         return element.weaknesses.includes(weaknessSelect);
       })
         return weaknessFilter;
-    
       }, 
 
   ordenpokemon:(listpokemon,ordenpokemon1)=>{

@@ -22,14 +22,23 @@ function showfilter(){
     
     let pokemonfilter= window.data.filterpokemon(listpokemon, typepokemonselect); 
 
-     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
+    // hacer calculo de porcentaje por tipo
+    let pokemoncon=pokemonfilter.length;
+    let pokemontotal=listpokemon.length;
+    let porcentpokemon =(pokemoncon/pokemontotal)*100;
+    let porcentpokemon1 = porcentpokemon.toFixed(2);
+
+    const showstatistics=document.getElementById("statistics");
+    showstatistics.innerHTML= "Existen "+ porcentpokemon1 + " % de Pokemons tipo "+ typepokemonselect;
+
+    showfilterpokemon.innerHTML= pokemonfilter.map (element => {
         return  `<div class="pokemon-info">
-                      <a href=# id="pokemonImg" value="id"><img  src="${element.img}"></a>
+                      <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
                       <h3 class="pokemon-number"># ${element.num}</h3>
-                      <h1 class="pokemon-name"> ${element.name}</h1>
+                      <h1 class= "pokemon-name"> ${element.name}</h1>
                    </div>`        
                   }).join("");
-    } 
+}
 
     //llamado a la funcion ordenar con select
 document.getElementById("ordenpokemon").addEventListener("change",showorden);
@@ -38,12 +47,11 @@ function showorden(){
 
     const showordenpokemon= document.getElementById("root");
     let ordenpokemon1 =document.getElementById("ordenpokemon").value;
-   
     let ordenpokemonup =window.data.ordenpokemon(listpokemon,ordenpokemon1) 
 
     showordenpokemon.innerHTML= ordenpokemonup.map (element => {
-        return  `<div id="pokemonInfo" class="pokemon-info">
-                 <a href=# id="pokemonImg" value="id"><img  src="${element.img}"></a>
+        return  `<div class="pokemon-info">
+                 <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
                  <h3 class="pokemon-number"># ${element.num}</h3>
                  <h1 class="pokemon-name"> ${element.name}</h1>
                  </div>`        
@@ -68,14 +76,22 @@ function showorden(){
        const weaknessResult = document.getElementById("root");
        
    let weaknessFilter = window.data.filterByWeakness(listpokemon,weaknessSelect);
-   weaknessResult.innerHTML = weaknessFilter.map(element =>{
+
+   let pokemoncon=weaknessFilter.length;
+   let pokemontotal=listpokemon.length;
+   let porcentpokemon =(pokemoncon/pokemontotal)*100;
+   let porcentpokemon1 = porcentpokemon.toFixed(2);
+   const showstatistics=document.getElementById("statistics");
+   showstatistics.innerHTML="Existen "+ porcentpokemon1  + " % de pokemons con debilidad "+ weaknessSelect 
+
+ 
+   weaknessResult.innerHTML= weaknessFilter.map(element =>{
        return `<div class="pokemon-info">
-              <a href=# id="pokemonImg" value="id"><img src="${element.img}"></a>
-              <h3 class="pokemon-number"># ${element.num}</h3>
+              <a href=# id="pokemoncard"><img src="${element.img}"></a>
+              <h3 class = "pokemon-number"># ${element.num}</h3>
               <h1 class="pokemon-name">${element.name}</h1>
               </div>`
               }).join("");
-
    }
 
  // boton de regresar    
