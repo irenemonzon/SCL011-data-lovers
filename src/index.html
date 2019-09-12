@@ -10,55 +10,58 @@
 
   <body>
     <div class="container">
-
-      <div id="statistics" class="statistics"></div>
-      <div class="menu">
-       
-        <a>Filtros de búsqueda</a>
       
-        <select id="typepokemon"> 
-            <option selected disabled>--Seleccione Tipo--</option> 
-            <option value="Fire">Fuego</option> 
-            <option value="Water"> Agua</option>
-            <option value="Electric">Electrico</option>
-            <option value="Poison">Veneno </option>
-            <option value="Grass"> Hierba</option>
-            <option value="Bug"> Insecto</option>
-            <option value="Normal"> Normal</option>
-            <option value="Ground">Tierra</option>
-            <option value="Fighting">Lucha </option>
-            <option value="Psychic"> Psiquica</option>
-            <option value="Dragon">Dragon</option>
-            <option value="Ice">Hielo</option>
-            <option value="Rock">Roca</option>
-            <option value="Ghost">Fantasma</option>
-            <option value="Flying">Volador</option>
-            </select> 
-            <br>
-        <select id="pokemonWeakness"> 
-            <option selected disabled>Selecciona una Debilidad</option>
-            <option value="Water">Agua</option>
-            <option value="Dragon">Dragon</option>
-            <option value="Electric">Electrico</option>
-            <option value="Fire">Fuego </option>
-            <option value="Grass"> Hierba</option>
-            <option value="Bug"> Insecto</option>
-            <option value="Fighting">Lucha</option>
-            <option value="Normal"> Normal</option>
-            <option value="Psychic"> Psíquico</option>
-            <option value="Ground">Tierra</option>
-            <option value="Poison">Veneno </option>
-            </select> 
-            <br>
+    <div id="statistics" class="statistics"></div>
+    <div class="order">
+      <select id="ordenpokemon" class="select-order">
+      <option selected disabled>Ordenar por nombre</option> 
+      <option value="ABC"> A - Z </option>
+      <option value="CBA"> Z - A</option>
+      </select>
+    </div>
 
-        <select id="ordenpokemon" class="order-select" >
-        <option selected disabled>--Ordenar por nombre--</option> 
-        <option   value="ABC"> A - Z </option>
-        <option   value="CBA"> Z - A</option>
-        </select>
-        <br>
+    <div class="menu">
+    <div class="filter-tittle">
+      <p>Filtros de Búsqueda</p>
+    </div>
 
-        <a href="" type="button" id="return">Home</a>
+      <select id="typepokemon" class="select-filter"> 
+         <option selected disabled>Tipo de Pokémon</option> 
+         <option value="Fire">Fuego</option> 
+         <option value="Water"> Agua</option>
+         <option value="Electric">Electrico</option>
+         <option value="Poison">Veneno </option>
+         <option value="Grass"> Hierba</option>
+         <option value="Bug"> Insecto</option>
+         <option value="Normal"> Normal</option>
+         <option value="Ground">Tierra</option>
+         <option value="Fighting">Lucha </option>
+         <option value="Psychic"> Psiquica</option>
+         <option value="Dragon">Dragon</option>
+         <option value="Ice">Hielo</option>
+         <option value="Rock">Roca</option>
+         <option value="Ghost">Fantasma</option>
+         <option value="Flying">Volador</option>
+      </select> 
+
+      <select id="pokemonWeakness" class="select-filter"> 
+          <option selected disabled>Selecciona una Debilidad</option>
+          <option value="Water">Agua</option>
+          <option value="Dragon">Dragon</option>
+          <option value="Electric">Electrico</option>
+          <option value="Fire">Fuego </option>
+          <option value="Grass"> Hierba</option>
+          <option value="Bug"> Insecto</option>
+          <option value="Fighting">Lucha</option>
+          <option value="Normal"> Normal</option>
+          <option value="Psychic"> Psíquico</option>
+          <option value="Ground">Tierra</option>
+          <option value="Poison">Veneno </option>
+        </select> 
+        <div class="return-button">
+          <a href="" type="button" id="return">Restablecer</a>
+        </div>
+        
     </div>
    
     <div id="root" class="pokemon">
