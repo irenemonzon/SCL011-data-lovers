@@ -171,7 +171,7 @@ select{
   }
   
   .pokemon-info{
-  width: 100%;
+  width: 90%;
   margin: 2%;
   column-gap: 2%;
   align-content: center;
