@@ -90,16 +90,16 @@ Aprecia pertenecer a una comunidad unida que comparte información y que tiene u
 ## **4.1 Mapa de Flujo**
 
 ## **4.2 Wireframes**
-(https://i.ibb.co/fn1W9T0/i-Phone-8-1.png)(https://i.ibb.co/PhkxhHc/i-Phone-8-2.png)(https://i.ibb.co/6DBm9Ch/i-Phone-8-3.png)(https://i.ibb.co/ZcnGKtf/i-Phone-8-4.png)(https://i.ibb.co/SP4Xdn1/i-Phone-8-5.png)
-(https://i.ibb.co/LhXWyyQ/Poke-1.png)(https://i.ibb.co/xJrbrwB/Poke-2.png)(https://i.ibb.co/SBfYkKm/Poke.png)
+![Prototipo Baja](https://i.ibb.co/fn1W9T0/i-Phone-8-1.png) ![Prototipo Baja](https://i.ibb.co/PhkxhHc/i-Phone-8-2.png) ![Prototipo Baja](https://i.ibb.co/6DBm9Ch/i-Phone-8-3.png) ![Prototipo Baja](https://i.ibb.co/ZcnGKtf/i-Phone-8-4.png) ![Prototipo Baja](https://i.ibb.co/SP4Xdn1/i-Phone-8-5.png)
+![Prototipo Baja](https://i.ibb.co/LhXWyyQ/Poke-1.png) ![Prototipo Baja](https://i.ibb.co/xJrbrwB/Poke-2.png) ![Prototipo Baja](https://i.ibb.co/SBfYkKm/Poke.png)
 
 > Puedes probar nuestro prototipo de baja en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
 ## **4.3 Desiciones de Diseño**
 ## **4.4 Prototipo de Alta Fidelidad**
-(https://i.ibb.co/QjsdTLw/i-Phone-8-1.png)(https://i.ibb.co/gJ5tv9C/i-Phone-8-6.png)
-(https://i.ibb.co/Fw8B5XH/Poke-1.png)(https://i.ibb.co/MRzFSfd/Poke-2.png)(https://i.ibb.co/rpCgGJw/Poke-3.png)
-(https://i.ibb.co/PYvCLNV/Poke-4.png)(https://i.ibb.co/pLRwhtm/Poke-5.png)(https://i.ibb.co/kx8Rdsc/Poke.png)
+![Prototipo Alta](https://i.ibb.co/QjsdTLw/i-Phone-8-1.png) ![Prototipo Alta](https://i.ibb.co/gJ5tv9C/i-Phone-8-6.png)
+![Prototipo Alta](https://i.ibb.co/Fw8B5XH/Poke-1.png) ![Prototipo Alta](https://i.ibb.co/MRzFSfd/Poke-2.png) ![Prototipo Alta](https://i.ibb.co/rpCgGJw/Poke-3.png)
+![Prototipo Alta](https://i.ibb.co/PYvCLNV/Poke-4.png) ![Prototipo Alta](https://i.ibb.co/pLRwhtm/Poke-5.png) ![Prototipo Alta](https://i.ibb.co/kx8Rdsc/Poke.png)
 
 > Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
