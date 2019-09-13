@@ -142,7 +142,7 @@ select{
 }
 
 .return-button a{
-  color:  #333333;
+  color:  #ffffff;
   font-size: 11pt;
 }
 
@@ -182,9 +182,17 @@ select{
   }
 
   .menu{
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
   }
+
+  .select-filter{
+    width: 90%;
+    height: 30px;
+    font-size: 10pt;
+    margin: auto;
+  }
+
 }
 
 
