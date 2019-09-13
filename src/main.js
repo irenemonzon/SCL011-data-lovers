@@ -6,7 +6,6 @@ for(let i = 0; i < listpokemon.length; i++){
       let cont = document.getElementById("root");
     // se crea un div hijo de root y se le da un atributo
       let contdata= document.createElement("div");
-      cont.appendChild(contdata);
       contdata.className ="pokemon-info";
    //se crea el elemento imagen
       let imagenpokemon=document.createElement("img");
@@ -19,14 +18,44 @@ for(let i = 0; i < listpokemon.length; i++){
       let namepokemon= document.createElement("h1");
       namepokemon.textContent= listpokemon[i].name;
       namepokemon.className="pokemon-name"
-      
+
       const modalButton=document.createElement("button");
       modalButton.textContent=("Ver ficha");
+
+      modalButton.addEventListener("click",()=>{
+
+        let contpokemonmodal= document.createElement("div");
+        contpokemonmodal.className="pokemon-modal"
+
+        let contdatapokemonmodal=document.createElement("div");
+        contdatapokemonmodal.classname="pokemon-datamodal"
+
+        let imagenpokemonmodal=document.createElement("img");
+        imagenpokemonmodal.src= listpokemon[i].img;
+     // se crea el elemento numero
+        let numpokemonmodal= document.createElement("h3");
+        numpokemonmodal.textContent= '#'+listpokemon[i].num;
+        numpokemonmodal.className="pokemon-number"
+     // se crea el elemento nombre
+        let namepokemonmodal= document.createElement("h1");
+        namepokemonmodal.textContent= listpokemon[i].name;
+        namepokemonmodal.className="pokemon-name"
+
+        contpokemonmodal.appendChild(contdatapokemonmodal);
+        contdatapokemonmodal.appendChild(imagenpokemonmodal);
+        contdatapokemonmodal.appendChild(numpokemonmodal);
+        contdatapokemonmodal.appendChild(namepokemonmodal);
+        contpokemonmodal.appendChild(contdata);
+      });
+
    //se crean los elementos hijos en el contenedor padre, para visualizar en HTML
-      contdata.appendChild(imagenpokemon);
-      contdata.appendChild(numpokemon);
-      contdata.appendChild(namepokemon);
-      contdata.appendChild(modalButton);
+   cont.appendChild(contdata);
+   contdata.appendChild(imagenpokemon);
+   contdata.appendChild(numpokemon);
+   contdata.appendChild(namepokemon);
+   contdata.appendChild(modalButton);
+
+   //document.getElementById("root").appendChild(cont).innerHTML;
 }
 
 /*const showalldata= document.getElementById("root");
