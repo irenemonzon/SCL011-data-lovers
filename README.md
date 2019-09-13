@@ -3,15 +3,8 @@
 ## **Índice**
 
 * [Preámbulo](#preámbulo)
-* [Problemática](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Parte opcional](#parte-opcional-hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
-* [Contenido de referencia](#contenido-de-referencia)
-* [Checklist](#checklist)
+* [Problemática y Definición de Usuario](#2.-poblematica-y-definicion-de-usuario)
+* [Diseño](#3.-diseño)
 
 ***
 
@@ -83,4 +76,37 @@ Aprecia pertenecer a una comunidad unida que comparte información y que tiene u
 - Ordenar los personajes de forma alfabética
 - Mostrar información más específica, como estadísticas de cada pokémon
 
+# **3. Definición del Producto**
 
+## **3.1 Experiencia**
+
+## **3.1 Requerimientos de la Aplicación**
+
+## **3.1 Planificación**
+> El detalle de nuestra planificación está en **Trello** puedes verlo por completo en este [link!](https://trello.com/b/keeK3KXC/pok%C3%A9mon).
+
+# **4. Diseño**
+
+## **4.1 Mapa de Flujo**
+
+## **4.2 Wireframes**
+(https://i.ibb.co/fn1W9T0/i-Phone-8-1.png)(https://i.ibb.co/PhkxhHc/i-Phone-8-2.png)(https://i.ibb.co/6DBm9Ch/i-Phone-8-3.png)(https://i.ibb.co/ZcnGKtf/i-Phone-8-4.png)(https://i.ibb.co/SP4Xdn1/i-Phone-8-5.png)
+(https://i.ibb.co/LhXWyyQ/Poke-1.png)(https://i.ibb.co/xJrbrwB/Poke-2.png)(https://i.ibb.co/SBfYkKm/Poke.png)
+
+> Puedes probar nuestro prototipo de baja en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
+
+## **4.3 Desiciones de Diseño**
+## **4.4 Prototipo de Alta Fidelidad**
+(https://i.ibb.co/QjsdTLw/i-Phone-8-1.png)(https://i.ibb.co/gJ5tv9C/i-Phone-8-6.png)
+(https://i.ibb.co/Fw8B5XH/Poke-1.png)(https://i.ibb.co/MRzFSfd/Poke-2.png)(https://i.ibb.co/rpCgGJw/Poke-3.png)
+(https://i.ibb.co/PYvCLNV/Poke-4.png)(https://i.ibb.co/pLRwhtm/Poke-5.png)(https://i.ibb.co/kx8Rdsc/Poke.png)
+
+> Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
+
+# **5. Test de Usuario**
+## **5.1 Testeos e Insight**
+## **5.2 Evaluación Heurística**
+
+# **6. Prototipo Interactivo**
+## **6.1 Nuestro Producto Final**
+## **6.2 Logros a considerar en próxima iteración**
