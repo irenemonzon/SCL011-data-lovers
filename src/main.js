@@ -1,6 +1,35 @@
 const listpokemon = window.POKEMON.pokemon;
 
-const showalldata= document.getElementById("root");
+// recorrer el array y mostrar imagen, numero y nombre de 151 pokemones
+for(let i = 0; i < listpokemon.length; i++){
+    //Se crea un contenedor padre en el div root
+      let cont = document.getElementById("root");
+    // se crea un div hijo de root y se le da un atributo
+      let contdata= document.createElement("div");
+      cont.appendChild(contdata);
+      contdata.className ="pokemon-info";
+   //se crea el elemento imagen
+      let imagenpokemon=document.createElement("img");
+      imagenpokemon.src= listpokemon[i].img;
+   // se crea el elemento numero
+      let numpokemon= document.createElement("h3");
+      numpokemon.textContent= '#'+listpokemon[i].num;
+      numpokemon.className="pokemon-number"
+   // se crea el elemento nombre
+      let namepokemon= document.createElement("h1");
+      namepokemon.textContent= listpokemon[i].name;
+      namepokemon.className="pokemon-name"
+      
+      const modalButton=document.createElement("button");
+      modalButton.textContent=("Ver ficha");
+   //se crean los elementos hijos en el contenedor padre, para visualizar en HTML
+      contdata.appendChild(imagenpokemon);
+      contdata.appendChild(numpokemon);
+      contdata.appendChild(namepokemon);
+      contdata.appendChild(modalButton);
+}
+
+/*const showalldata= document.getElementById("root");
 let alldatapokemon = listpokemon.map (element => {
    return  `<div id="pokemonInfo" class="pokemon-info">
                  <a href="#" id="pokemonImg" value="data[i].id"><img src="${element.img}"></a>
@@ -8,7 +37,7 @@ let alldatapokemon = listpokemon.map (element => {
                  <h1 class= "pokemon-name"> ${element.name}</h1>
               </div>`
              }).join("");
-showalldata.innerHTML=alldatapokemon;
+showalldata.innerHTML=alldatapokemon;*/
 
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);

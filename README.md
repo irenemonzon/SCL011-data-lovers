@@ -95,7 +95,7 @@ Aprecia pertenecer a una comunidad unida que comparte información y que tiene u
 
 > Puedes probar nuestro prototipo de baja en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
-## **4.3 Desiciones de Diseño**
+## **4.3 Decisiones de Diseño**
 ## **4.4 Prototipo de Alta Fidelidad**
 ![Prototipo Alta](https://i.ibb.co/QjsdTLw/i-Phone-8-1.png) ![Prototipo Alta](https://i.ibb.co/gJ5tv9C/i-Phone-8-6.png)
 ![Prototipo Alta](https://i.ibb.co/Fw8B5XH/Poke-1.png) ![Prototipo Alta](https://i.ibb.co/MRzFSfd/Poke-2.png) ![Prototipo Alta](https://i.ibb.co/rpCgGJw/Poke-3.png)
