@@ -17,7 +17,7 @@ body{
   grid-template-rows: repeat(3, auto);
 
   grid-template-areas: "logo logo logo select"
-                       "menu pokemon-info pokemon-info pokemon-info"
+                       "menu statistics statistics statistics"
                        "menu pokemon-info pokemon-info pokemon-info"
                        ;
 }
@@ -47,6 +47,11 @@ body{
   grid-area: pokemon-info;
 }
 
+.statistics{
+    grid-area: statistics;
+    text-align: center;
+}
+
 /*contenedor de la info de cada pokémon*/
 .pokemon-info{
   grid-area: pokemon-info;
@@ -74,10 +79,24 @@ body{
 .pokemon-name{
   font-weight: normal;
   font-size: 15pt;
-  color: rgba(54, 54, 54, 1);
+  color: rgb(10, 9, 9);
 
 }
 
+/* modal */
+.principalModal{
+    position: fixed; 
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
 /*todos los select*/
 select{
   outline: none;
@@ -160,11 +179,8 @@ select{
   color: #ffffff;
 }
 
-/* modal */
-.principalModal{
-  z-index: 1;
-  background-color: transparent;
-}
+
+
 
 @media screen and (max-width: 768px){
   .container{

@@ -1,6 +1,98 @@
 const listpokemon = window.POKEMON.pokemon;
 
-const showalldata= document.getElementById("root");
+// recorrer el array y mostrar imagen, numero y nombre de 151 pokemones
+for(let i = 0; i < listpokemon.length; i++){
+    //Se crea un contenedor padre en el div root
+      //let cont = document.getElementById("root");
+
+   let cont= document.getElementById("root");
+    // se crea un div hijo de root y se le da un atributo
+      let contdata= document.createElement("div");
+      contdata.className ="pokemon-info";
+   //se crea el elemento imagen
+      let imagenpokemon=document.createElement("img");
+      imagenpokemon.src= listpokemon[i].img;
+   // se crea el elemento numero
+      let numpokemon= document.createElement("h3");
+      numpokemon.textContent= '#'+listpokemon[i].num;
+      numpokemon.className="pokemon-number"
+   // se crea el elemento nombre
+      let namepokemon= document.createElement("h1");
+      namepokemon.textContent= listpokemon[i].name;
+      namepokemon.className="pokemon-name"
+
+      const modalButton=document.createElement("button");
+      modalButton.textContent=("Ver ficha");
+
+      modalButton.addEventListener("click",()=>{
+
+        
+        let contpokemonmodal= document.createElement("div");
+        contpokemonmodal.className="principalModal"
+
+        let contdatapokemonmodal=document.createElement("div");
+        contdatapokemonmodal.classname="pokemon-datamodal"
+
+        let imagenpokemonmodal=document.createElement("img");
+        imagenpokemonmodal.src= listpokemon[i].img;
+     // se crea el elemento numero
+        let numpokemonmodal= document.createElement("h3");
+        numpokemonmodal.textContent= '#'+listpokemon[i].num;
+        numpokemonmodal.className="pokemon-number"
+     // se crea el elemento nombre
+        let namepokemonmodal= document.createElement("h1");
+        namepokemonmodal.textContent= listpokemon[i].name;
+        namepokemonmodal.className="pokemon-name"
+
+        let typepokemonmodal=document.createElement("h2");
+        typepokemonmodal.textContent= "tipo:" + listpokemon[i].type;
+
+        let heightpokemonmodal= document.createElement("h3");
+        heightpokemonmodal.textContent= "Altura: "+ listpokemon[i].height;
+
+        let weightpokemonmodal= document.createElement("h3");
+        weightpokemonmodal.textContent= "Peso:"+ listpokemon[i].weight;
+
+        let eggpokemonmodal= document.createElement("h3");
+        eggpokemonmodal.textContent= "Egg:" + listpokemon[i].egg;
+
+        let avg_spawnspokemonmodal= document.createElement("h3");
+        avg_spawnspokemonmodal.textContent= "avg_spawns:"+ listpokemon[i].avg_spawns;
+
+        const buttonclose=document.createElement("button");
+        buttonclose.textContent= "X";
+        buttonclose.className="buttonclose";
+
+        buttonclose.addEventListener("click",()=>{
+             contpokemonmodal.style.display="none";
+        });
+
+        contdatapokemonmodal.appendChild(imagenpokemonmodal);
+        contdatapokemonmodal.appendChild(numpokemonmodal);
+        contdatapokemonmodal.appendChild(namepokemonmodal);
+        contdatapokemonmodal.appendChild(typepokemonmodal);
+        contdatapokemonmodal.appendChild(heightpokemonmodal);
+        contdatapokemonmodal.appendChild(weightpokemonmodal);
+        contdatapokemonmodal.appendChild(eggpokemonmodal);
+        contdatapokemonmodal.appendChild(avg_spawnspokemonmodal);
+        contdatapokemonmodal.appendChild(buttonclose);
+        contpokemonmodal.appendChild(contdatapokemonmodal);
+        contdata.appendChild(contpokemonmodal);
+
+      });
+
+   //se crean los elementos hijos en el contenedor padre, para visualizar en HTML
+   //cont.appendChild(contdata);
+   contdata.appendChild(imagenpokemon);
+   contdata.appendChild(numpokemon);
+   contdata.appendChild(namepokemon);
+   contdata.appendChild(modalButton);
+   cont.appendChild(contdata);
+
+   cont.innerHTML;
+}
+
+/*const showalldata= document.getElementById("root");
 let alldatapokemon = listpokemon.map (element => {
    return  `<div id="pokemonInfo" class="pokemon-info">
                  <a href="#" id="pokemonImg" value="data[i].id"><img src="${element.img}"></a>
@@ -8,7 +100,7 @@ let alldatapokemon = listpokemon.map (element => {
                  <h1 class= "pokemon-name"> ${element.name}</h1>
               </div>`
              }).join("");
-showalldata.innerHTML=alldatapokemon;
+showalldata.innerHTML=alldatapokemon;*/
 
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);
