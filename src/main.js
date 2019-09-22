@@ -125,7 +125,7 @@ function showfilter(){
 
     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
         return  `<div class="pokemon-info">
-                      <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
+                      <a href="#"  id="pokemoncard" ><img  src="${element.img}"></a>
                       <h3 class="pokemon-number"># ${element.num}</h3>
                       <h1 class= "pokemon-name"> ${element.name}</h1>
                    </div>`        
