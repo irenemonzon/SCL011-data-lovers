@@ -17,6 +17,7 @@ body{
   grid-template-rows: repeat(3, auto);
 
   grid-template-areas: "logo logo logo select"
+                       "menu statistics statistics statistics"
                        "menu pokemon-info pokemon-info pokemon-info"
                        "menu pokemon-info pokemon-info pokemon-info"
                        ;
@@ -35,6 +36,20 @@ body{
  display: flex;
  flex-direction: column;
  align-items: center;
+}
+
+/*contenedr de las estadísticas*/
+.statistics{
+ grid-area: statistics;
+ width: 97%;
+ height: 40px;
+ border-radius: 10px;
+ margin: auto auto 6px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: darkgray;
+ color: #333333;
 }
 
 /*contenedor de los pokémons*/
