@@ -128,6 +128,8 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 
 ## **4.1 Mapa de Flujo**
 
+![Visualización Flujo del diseño Web](https://i.ibb.co/Q6QdFFY/flujo.png)
+
 ## **4.2 Wireframes**
  
  Comenzamos a trabajar en un prototipo de baja fidelidad considerando los niveles de navegación de nuestro mapa de flujo, el diseño fue pensado también como un responsive.
