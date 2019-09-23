@@ -114,16 +114,6 @@ for(let i = 0; i < listpokemon.length; i++){
    cont.innerHTML;
 }
 
-/*const showalldata= document.getElementById("root");
-let alldatapokemon = listpokemon.map (element => {
-   return  `<div id="pokemonInfo" class="pokemon-info">
-                 <a href="#" id="pokemonImg" value="data[i].id"><img src="${element.img}"></a>
-                 <h3 class="pokemon-number"># ${element.num}</h3>
-                 <h1 class= "pokemon-name"> ${element.name}</h1>
-              </div>`
-             }).join("");
-showalldata.innerHTML=alldatapokemon;*/
-
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);
 
