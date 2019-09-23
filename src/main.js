@@ -58,11 +58,11 @@ for(let i = 0; i < listpokemon.length; i++){
         typepokemonmodal.textContent=listpokemon[i].type[0];
         typepokemonmodal.className="type-modal";
 
-   /* tipo secundario
+   //tipo secundario
         let secondaryType=document.createElement("h2");
         secondaryType.textContent=listpokemon[i].type[1];
         secondaryType.className="type-modal";
-   */
+
         let heightpokemonmodal= document.createElement("h3");
         heightpokemonmodal.textContent= "Altura: "+ listpokemon[i].height;
         heightpokemonmodal.className="text-modal";
@@ -80,7 +80,7 @@ for(let i = 0; i < listpokemon.length; i++){
         avg_spawnspokemonmodal.className="text-modal";
 
         const buttonclose=document.createElement("button");
-        buttonclose.textContent= "X";
+        buttonclose.textContent= "Volver a la Pokédex";
         buttonclose.className="buttonclose";
 
         buttonclose.addEventListener("click",()=>{
@@ -103,7 +103,7 @@ for(let i = 0; i < listpokemon.length; i++){
         infoDataModal.appendChild(numpokemonmodal);
         infoDataModal.appendChild(namepokemonmodal);
         infoDataModal.appendChild(typepokemonmodal);
-        /*infoDataModal.appendChild(secondaryType);*/
+        infoDataModal.appendChild(secondaryType);
         infoDataModal.appendChild(heightpokemonmodal);
         infoDataModal.appendChild(weightpokemonmodal);
         infoDataModal.appendChild(eggpokemonmodal);
