@@ -87,18 +87,8 @@ for(let i = 0; i < listpokemon.length; i++){
              contpokemonmodal.style.display="none";
         });
 
-        /*contdatapokemonmodal.appendChild(imagenpokemonmodal);
-        contdatapokemonmodal.appendChild(numpokemonmodal);
-        contdatapokemonmodal.appendChild(namepokemonmodal);
-        contdatapokemonmodal.appendChild(typepokemonmodal);
-        contdatapokemonmodal.appendChild(heightpokemonmodal);
-        contdatapokemonmodal.appendChild(weightpokemonmodal);
-        contdatapokemonmodal.appendChild(eggpokemonmodal);
-        contdatapokemonmodal.appendChild(avg_spawnspokemonmodal);
-        contdatapokemonmodal.appendChild(buttonclose);
-        contpokemonmodal.appendChild(contdatapokemonmodal);
-        contdata.appendChild(contpokemonmodal);*/
 
+        infoDataModal.appendChild(buttonclose);
         infoDataModal.appendChild(numpokemonmodal);
         infoDataModal.appendChild(namepokemonmodal);
         infoDataModal.appendChild(typepokemonmodal);
@@ -126,16 +116,6 @@ for(let i = 0; i < listpokemon.length; i++){
    cont.innerHTML;
 }
 
-/*const showalldata= document.getElementById("root");
-let alldatapokemon = listpokemon.map (element => {
-   return  `<div id="pokemonInfo" class="pokemon-info">
-                 <a href="#" id="pokemonImg" value="data[i].id"><img src="${element.img}"></a>
-                 <h3 class="pokemon-number"># ${element.num}</h3>
-                 <h1 class= "pokemon-name"> ${element.name}</h1>
-              </div>`
-             }).join("");
-showalldata.innerHTML=alldatapokemon;*/
-
 // filtrado por tipo
 document.getElementById("typepokemon").addEventListener("change", showfilter);
 
@@ -159,7 +139,7 @@ function showfilter(){
 
     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
         return  `<div class="pokemon-info">
-                      <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
+                      <a href="#"  id="pokemoncard" ><img  src="${element.img}"></a>
                       <h3 class="pokemon-number"># ${element.num}</h3>
                       <h1 class= "pokemon-name"> ${element.name}</h1>
                    </div>`        
