@@ -10,7 +10,7 @@
 
 # **1. Preámbulo**
 
-"Pókemon Data" es una plataforma virtual que alberga información de utilidad para los jugadores de Pokémon Go, esta información está específicamente enfocada a los 150 Pókemons de la primera generación pertenecientes a la región de Kanto. 
+"Pokémon Data" es una plataforma virtual que alberga información de utilidad para los jugadores de Pokémon Go, esta información está específicamente enfocada a los 150 Pókemons de la primera generación pertenecientes a la región de Kanto. 
 La información corresponde a data importante para que los usuarios la utilicen en batalla o en completar la pokédex que es una de las problemáticas constantes para los jugadores de Pokémon Go. 
 Ahora, ¡a atrapárlos!
 
@@ -79,10 +79,44 @@ Aprecia pertenecer a una comunidad unida que comparte información y que tiene u
 # **3. Definición del Producto**
 
 ## **3.1 Experiencia**
+"Pokémon Data" es una aplicación a través de la cual el usuario puede acceder a información relacionada a los Pokémons de la región de Kanto, de forma rápida y fácil. 
+Nuestro usuario ingresará a la página y podrá conocer la lista completa de los Pokémons que contiene nuestra aplicación, se le indica que son los de la región Kanto en específico, cada previsualización del Pokémon muestra su nombre, número en la pokédex y un botón para que el usuario abra la ficha. 
+Al costado derecho el menú de selectores permite al usuario realizar filtros según el tipo de Pokémon o el tipo de debilidad. Y un botón para restablecer el filtro o "limpiar". 
+Al costado del ícono "Pokédex" se despliegan estadísticas correspondientes al porcentaje de pokémons de cada tipo, para describir la rareza del tipo. 
+Al presionar la ficha del pokémon, se despliega información más personalizada con respecto a cada Pókemon, como su altura, peso, tipo, cuál es el kilometráje de incubación de sus huevos y cuál es el promedio de apariciones que tiene dentro de un total de 10,000 pokémon que podrían aparecer. 
+
 
 ## **3.1 Requerimientos de la Aplicación**
 
+- La información debe encontrarse rápidamente
+- La información debe ser de fácil acceso
+- Minizar los *clicks* dentro de la página
+- Que el usuario tenga acceso a toda la interacción dentro de la página principal
+- Debe permitir realizar búsquedas por nombre y debilidad
+- Debe permitir ordenar de forma alfabética
+- Debe mostrarme estadísticas 
+
 ## **3.1 Planificación**
+Nuestra planificación se realizó en torno a las historias de usuario, definimos en primera instancia lo que el usuario necesita realizar dentro de la página.
+
+1. Abrir la página
+2. Previsualizar la información básica del Pókemon
+   > Imagen
+   > Nombre
+   > Número
+3. Podrá ver la ficha de los pokémons para conocer información que complementa su información básica
+   > Tipo primario y Secundario
+   > Altura
+   > Peso
+   > Huevos
+   > Promedio de Aparción en un total de 10,000 
+4. Podrá cerrar esa información y volver a realizar otra búsqueda
+5. Filtrará los pokémons según su tipo
+6. Conocerá estadísticas asociadas a su tipo
+7. Ordenará la búsqueda de manera alfabética ascente y descente
+8. Filtrará los pokémons según su debilidad
+9. Conocerá estadísticas asociadas a su debilidad
+
 > El detalle de nuestra planificación está en **Trello** puedes verlo por completo en este [link!](https://trello.com/b/keeK3KXC/pok%C3%A9mon).
 
 # **4. Diseño**
@@ -90,12 +124,24 @@ Aprecia pertenecer a una comunidad unida que comparte información y que tiene u
 ## **4.1 Mapa de Flujo**
 
 ## **4.2 Wireframes**
-![Prototipo Baja](https://i.ibb.co/fn1W9T0/i-Phone-8-1.png) ![Prototipo Baja](https://i.ibb.co/PhkxhHc/i-Phone-8-2.png) ![Prototipo Baja](https://i.ibb.co/6DBm9Ch/i-Phone-8-3.png) ![Prototipo Baja](https://i.ibb.co/ZcnGKtf/i-Phone-8-4.png) ![Prototipo Baja](https://i.ibb.co/SP4Xdn1/i-Phone-8-5.png)
-![Prototipo Baja](https://i.ibb.co/LhXWyyQ/Poke-1.png) ![Prototipo Baja](https://i.ibb.co/xJrbrwB/Poke-2.png) ![Prototipo Baja](https://i.ibb.co/SBfYkKm/Poke.png)
+ 
+ Comenzamos a trabajar en un prototipo de baja fidelidad considerando los niveles de navegación de nuestro mapa de flujo, el diseño fue pensado también como un responsive.
+
+![Prototipo Baja](https://i.ibb.co/6vMNBB6/Desktop.png)
+![Prototipo Baja](https://i.ibb.co/pdDjV2g/Desktop-3.png)
+![Prototipo Baja](https://i.ibb.co/5v9ftgP/Desktop-1.png)
+![Prototipo Baja](https://i.ibb.co/1Zmbd71/Desktop-4.png)
+![Prototipo Baja](https://i.ibb.co/kQv13FT/Desktop-4.png)
+![Prototipo Baja](https://i.ibb.co/xHxW78R/Desktop-6.png)
+![Prototipo Baja](https://i.ibb.co/NjvPdhX/Desktop-6.png)
 
 > Puedes probar nuestro prototipo de baja en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
 ## **4.3 Decisiones de Diseño**
+### Paleta de color
+### Tipografía
+### Elementos Gráficos
+
 ## **4.4 Prototipo de Alta Fidelidad**
 ![Prototipo Alta](https://i.ibb.co/QjsdTLw/i-Phone-8-1.png) ![Prototipo Alta](https://i.ibb.co/gJ5tv9C/i-Phone-8-6.png)
 ![Prototipo Alta](https://i.ibb.co/Fw8B5XH/Poke-1.png) ![Prototipo Alta](https://i.ibb.co/MRzFSfd/Poke-2.png) ![Prototipo Alta](https://i.ibb.co/rpCgGJw/Poke-3.png)
