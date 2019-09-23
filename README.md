@@ -201,7 +201,7 @@ La familia tipográfica utilizada es Ubuntu.
 ![Visualización de la ficha](https://i.ibb.co/DCmtJM5/Visualizacio-n-del-Pokemon.png)
 ![Vista de los distintos tipos](https://i.ibb.co/q7XLhSW/Visualizacio-n-por-tipo.png)
 
-> Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
+> Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](https://www.figma.com/proto/sKfU91fW3dgQ80GwznrR6E/Pok%C3%A9mon-Wireframes-Alta-Copy?node-id=26%3A101&viewport=265%2C305%2C0.14114804565906525&scaling=min-zoom).
 
 # **5. Test de Usuario**
 ## **5.1 Testeos e Insight**

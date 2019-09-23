@@ -403,11 +403,11 @@ select{
 
 .info-modal{
   grid-area: info-modal;
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
-  align-items: flex-start;
+  align-content: center;
+  align-items: center;
   margin: 50px 0;
 }
 
