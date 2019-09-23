@@ -87,18 +87,6 @@ for(let i = 0; i < listpokemon.length; i++){
              contpokemonmodal.style.display="none";
         });
 
-        /*contdatapokemonmodal.appendChild(imagenpokemonmodal);
-        contdatapokemonmodal.appendChild(numpokemonmodal);
-        contdatapokemonmodal.appendChild(namepokemonmodal);
-        contdatapokemonmodal.appendChild(typepokemonmodal);
-        contdatapokemonmodal.appendChild(heightpokemonmodal);
-        contdatapokemonmodal.appendChild(weightpokemonmodal);
-        contdatapokemonmodal.appendChild(eggpokemonmodal);
-        contdatapokemonmodal.appendChild(avg_spawnspokemonmodal);
-        contdatapokemonmodal.appendChild(buttonclose);
-        contpokemonmodal.appendChild(contdatapokemonmodal);
-        contdata.appendChild(contpokemonmodal);*/
-
         infoDataModal.appendChild(buttonclose);
         infoDataModal.appendChild(numpokemonmodal);
         infoDataModal.appendChild(namepokemonmodal);
