@@ -27,7 +27,7 @@ Entre las problemáticas que abordamos están encontrar una plataforma virtual q
 
 ## **2.2 Encuestas**
 
-### Google Forms
+### Google Forms 📋
 
 Realizamos encuestas compartidas en redes sociales y grupos de pokémon go para tener un primer approach a la necesidad de nuestros usuarios, ya que en primera instancia pensamos la app con una finalidad distinta. 
 Gracias a la encuesta aterrizamos nuestra idea y pudimos direccionarla. 
@@ -52,9 +52,10 @@ Dentro de las preguntas en nuestra encuesta dejamos algunas abiertas para conoce
 - Dulces para evolucionar
 - Eventos, noticias relacionadas al juego y a la comunidad
 
+> Para conocer todas las preguntas de nuestro **Google Form**. Puedes ver la encuesta clickeando [aquí!](https://forms.gle/f3wi4LgnPCNXpAVZ6).
 
 
-### Audios
+### Audios 🎧
 
 Seleccionamos jugadores en específico que quisieron acceder a la entrevista vía whatsapp. 
 Las preguntas que realizamos fueron las siguientes: 
@@ -83,6 +84,7 @@ Acá está el registro de nuestras conversaciones:
 ![Navia](https://i.ibb.co/gVgH5cf/Entrevista-Navia.png)
 
 > Puedes oír los audios de nuestros entrevistados en nuestra carpeta de **Dropbox**. Si atrapas el siguiente [link!](https://www.dropbox.com/sh/wa3i90o2bqgs0er/AADwYPFw-R8rQl9Iu16rDk53a?dl=0).
+
 
 **Conclusiones:**
 Rescatamos de estas respuestas que nuestros usuarios utilizan el juego más que nada como una distracción, entretenimiento o por lograr la experiencia de la fantasía de infancia. Por lo mismo, han creado una comunidad alrededor del mismo que comprende compartir datos, juntarse, jugar en grupos. Cooperar, más allá de la competitividad.
@@ -195,8 +197,7 @@ Esta paleta de color fue utilizada en el prototipo útil final, la paleta de col
 La familia tipográfica utilizada es Ubuntu. 
 ![Familia Tipográfica](https://i.ibb.co/HGtKBWb/ubuntu.png)
 
-> ¿Te gustaría utilizarla? Puedes conocer el Specimen de la tipografía en **Google Fonts** en el siguiente [link!](https://fonts.google.com/specimen/Ubuntu
-).
+> ¿Te gustaría utilizarla? Puedes conocer el Specimen de la tipografía en **Google Fonts** en el siguiente [link!](https://fonts.google.com/specimen/Ubuntu).
 
 ## **4.4 Prototipo de Alta Fidelidad**
 
@@ -214,21 +215,23 @@ La familia tipográfica utilizada es Ubuntu.
 Realizamos un testeo de usabilidad con el producto final.
 > Revisa un video de nuestro test en **Loom** 👉🏼 [aquí](https://www.loom.com/share/574cd2e6443745b7919185cc2ad53183).
 
+
 # **6. Prototipo Interactivo**
 
 ## **6.1 Nuestro Producto Final**
 
 En el producto final,el usuario puede visualizar en un inicio los 150 pokemons de la region Kanto, pudiendo dar click y observar a mas detalle de las caracteristicas de altura, peso, huevos y promedio de aparición del pokemon,teniendo tambien un menu para visualizarlos por orden alfabetico y poder filtrar a los pokemons por tipo y debilidad, dandole al usuario la informacion sobre cuantos pokemons son de cada tipo y que debilidades tienen.
 
-![Visualizacion del producto final](https://i.ibb.co/f1DFLhh/0a7a03ed-ad46-489a-a140-53324b5939f5.jpg)
-![Visualizacion del ficha pokemon](https://i.ibb.co/x7GvJ6P/modal.jpg)
-![Visualizacion de estadisticas tipo pokemon](https://i.ibb.co/XSp2htK/tipo-pokemon.png)
-![Visualizacion de estadisticas debilidades pokemon](https://i.ibb.co/XkQdNB0/debilidades-pokemon.png)
+
+![Visualizacion del producto final](https://i.ibb.co/ChWZDg0/Foto-Pokemon.png)
+![Visualizacion del ficha pokemon](https://i.ibb.co/KX5VF9F/Captura-de-pantalla-2019-09-23-a-la-s-20-23-03.png)
+![Visualizacion de estadisticas tipo pokemon](https://i.ibb.co/wQ4VCwb/Captura-de-pantalla-2019-09-23-a-la-s-20-22-02.png)
+![Visualizacion de estadisticas debilidades pokemon](https://i.ibb.co/THRZXQ1/Captura-de-pantalla-2019-09-23-a-la-s-20-22-44.png)
 
 Tambien se realizó un modelo responsive para que el usuario tambien lo pueda visualizar desde su celular
 ![Visualizacion del ficha pokemon](https://i.ibb.co/KyMwBhz/responsive.png)
 
-> ¿Quieres verlo funcionar? Anda ahora mismo a revisar nuestro **Github** 🚀 [aquí](https://nicole-lastra.github.io/SCL011-data-lovers/src/index.html).
+> **¿Quieres verlo funcionar?** Anda ahora mismo a revisar nuestro [aquí](https://nicole-lastra.github.io/SCL011-data-lovers/src/index.html) 🚀 
 
 ## **6.2 Logros a considerar en próxima iteración**
 
