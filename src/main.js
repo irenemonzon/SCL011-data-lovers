@@ -87,6 +87,7 @@ for(let i = 0; i < listpokemon.length; i++){
              contpokemonmodal.style.display="none";
         });
 
+
         infoDataModal.appendChild(buttonclose);
         infoDataModal.appendChild(numpokemonmodal);
         infoDataModal.appendChild(namepokemonmodal);
@@ -96,6 +97,7 @@ for(let i = 0; i < listpokemon.length; i++){
         infoDataModal.appendChild(weightpokemonmodal);
         infoDataModal.appendChild(eggpokemonmodal);
         infoDataModal.appendChild(avg_spawnspokemonmodal);
+        infoDataModal.appendChild(buttonclose);
         contdatapokemonmodal.appendChild(imagenpokemonmodal);
         contdatapokemonmodal.appendChild(infoDataModal);
         contpokemonmodal.appendChild(contdatapokemonmodal);
