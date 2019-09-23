@@ -178,10 +178,12 @@ La familia tipográfica utilizada es Ubuntu.
 
 ## **6.1 Nuestro Producto Final**
 
-En el producto final,el usuario puede visualizar en un inicio los 150 pokemons de la region Kanto, pudiendo dar click y observar a mas detalle de las caracteristicas del pokemon a seleccionar.Teniendo tambien un menu para poder filtrar a los pokemons por tipo y debilidad y poder visualizarlos por orden alfabetico.
+En el producto final,el usuario puede visualizar en un inicio los 150 pokemons de la region Kanto, pudiendo dar click y observar a mas detalle de las caracteristicas del pokemon a seleccionar.Teniendo tambien un menu para poder filtrar a los pokemons por tipo y debilidad, y poder visualizarlos por orden alfabetico.
 
 ![Visualizacion del producto final](https://i.ibb.co/f1DFLhh/0a7a03ed-ad46-489a-a140-53324b5939f5.jpg)
 ![Visualizacion del ficha pokemon](https://i.ibb.co/x7GvJ6P/modal.jpg)
+![Visualizacion de estadisticas tipo pokemon](https://i.ibb.co/XSp2htK/tipo-pokemon.png)
+![Visualizacion de estadisticas debilidades pokemon](https://i.ibb.co/XkQdNB0/debilidades-pokemon.png)
 
 ## **6.2 Logros a considerar en próxima iteración**
 
