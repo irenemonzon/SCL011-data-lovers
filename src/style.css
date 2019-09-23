@@ -269,11 +269,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
-    grid-template-areas: "modal-image button-modal"
-                         "modal-image type-modal"
+    grid-template-areas: "modal-image type-modal"
                          "modal-image info-modal"
                          "modal-image info-modal"
-                         "modal-image info-modal";
+                         "modal-image info-modal"
+                         "modal-image button-modal";
   }
   
   .modal-image{
@@ -299,7 +299,6 @@
   .buttonclose{
     grid-area: button-modal;
     width: 20%;
-    margin: 5px;
   }
   
   .modal-name{
@@ -345,6 +344,12 @@
     column-gap: 2%;
     align-content: center;
     }
+
+    .logo{
+        width: 40%;
+        align-items: center;
+        margin: 0% 30% 5%;
+      }
   
     .select-order{
       width:100%;
