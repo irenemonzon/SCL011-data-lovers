@@ -154,9 +154,9 @@ La familia tipográfica utilizada es Ubuntu.
 ### Elementos Gráficos
 
 ## **4.4 Prototipo de Alta Fidelidad**
-![Prototipo Alta](https://i.ibb.co/QjsdTLw/i-Phone-8-1.png) ![Prototipo Alta](https://i.ibb.co/gJ5tv9C/i-Phone-8-6.png)
-![Prototipo Alta](https://i.ibb.co/Fw8B5XH/Poke-1.png) ![Prototipo Alta](https://i.ibb.co/MRzFSfd/Poke-2.png) ![Prototipo Alta](https://i.ibb.co/rpCgGJw/Poke-3.png)
-![Prototipo Alta](https://i.ibb.co/PYvCLNV/Poke-4.png) ![Prototipo Alta](https://i.ibb.co/pLRwhtm/Poke-5.png) ![Prototipo Alta](https://i.ibb.co/kx8Rdsc/Poke.png)
+ ### Prototipo Alta Fidelidad NRO.1
+![Visualización de la ficha](https://i.ibb.co/zNrKptG/Visualizacio-n-del-Pokemon.png)
+![Vista de los distintos tipos](https://i.ibb.co/2qTpzTV/Visualizacio-n-por-tipo.png)
 
 > Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
