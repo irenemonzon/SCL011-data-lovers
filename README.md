@@ -175,18 +175,17 @@ La familia tipográfica utilizada es Ubuntu.
 En el producto final,el usuario puede visualizar en un inicio los 150 pokemons de la region Kanto, pudiendo dar click y observar a mas detalle de las caracteristicas del pokemon a seleccionar.Teniendo tambien un menu para poder filtrar a los pokemons por tipo y debilidad y poder visualizarlos por orden alfabetico.
 
 ![Visualizacion del producto final](https://i.ibb.co/f1DFLhh/0a7a03ed-ad46-489a-a140-53324b5939f5.jpg)
-![Visualizacion del producto final](https://i.ibb.co/YZr9pJC/todos-los-pokemons.png)
-![Visualizacion del producto final](https://i.ibb.co/x7GvJ6P/modal.jpg)
+![Visualizacion del ficha pokemon](https://i.ibb.co/x7GvJ6P/modal.jpg)
 
 ## **6.2 Logros a considerar en próxima iteración**
 
-    - Eliminación del Boton Ver ficha y lograr el link a la ficha del pokemon con la imagen del mismo.
+- Eliminar Boton Ver ficha y lograr el link a la ficha del pokemon con la imagen del mismo.
 
-    - Visualizar ficha del pokemon despues que el usuario filtre y ordene los pokemons
+- Visualizar ficha del pokemon despues que el usuario filtre y ordene los pokemons
 
-    - Añadir menu de busqueda por nombre del pokemon.
+- Añadir menu de busqueda por nombre del pokemon.
 
-    - Realizar un menu desplegable, sin select.
+- Realizar un menu desplegable, sin select.
     
-    - Añadir noticias y eventos de pokemon Go.
+- Añadir noticias y eventos de pokemon Go.
     
