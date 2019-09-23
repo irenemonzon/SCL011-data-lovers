@@ -228,10 +228,11 @@ En el producto final,el usuario puede visualizar en un inicio los 150 pokemons d
 ![Visualizacion de estadisticas tipo pokemon](https://i.ibb.co/wQ4VCwb/Captura-de-pantalla-2019-09-23-a-la-s-20-22-02.png)
 ![Visualizacion de estadisticas debilidades pokemon](https://i.ibb.co/THRZXQ1/Captura-de-pantalla-2019-09-23-a-la-s-20-22-44.png)
 
-Tambien se realizó un modelo responsive para que el usuario tambien lo pueda visualizar desde su celular
-![Visualizacion del ficha pokemon](https://i.ibb.co/KyMwBhz/responsive.png)
 
-> **¿Quieres verlo funcionar?** Anda ahora mismo a revisar nuestro [aquí](https://nicole-lastra.github.io/SCL011-data-lovers/src/index.html) 🚀 
+Tambien se realizó un modelo responsive para que el usuario tambien lo pueda visualizar desde su celular
+![Visualizacion del ficha pokemon](https://i.ibb.co/X3DSf2P/screencapture-file-Users-Diego-Desktop-Data-Lovers-SCL011-data-lovers-src-index-html-2019-09-23-20-39-44.png)
+
+> **¿Quieres verlo funcionar?** Anda ahora mismo a revisar nuestro [Github](https://nicole-lastra.github.io/SCL011-data-lovers/src/index.html) 🚀 
 
 ## **6.2 Logros a considerar en próxima iteración**
 
