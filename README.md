@@ -128,6 +128,8 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 
 ## **4.1 Mapa de Flujo**
 
+Realizamos un mapa de flujo para visualizar como seria el comportamiento de nuestra web.
+
 ![Visualización Flujo del diseño Web](https://i.ibb.co/Q6QdFFY/flujo.png)
 
 ## **4.2 Wireframes**
