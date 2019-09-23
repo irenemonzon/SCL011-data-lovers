@@ -82,6 +82,7 @@ Acá está el registro de nuestras conversaciones:
 
 > Puedes oír los audios de nuestros entrevistados en nuestra carpeta de **Dropbox**. Si atrapas el siguiente [link!](https://www.dropbox.com/sh/wa3i90o2bqgs0er/AADwYPFw-R8rQl9Iu16rDk53a?dl=0).
 
+
 **Conclusiones:**
 Rescatamos de estas respuestas que nuestros usuarios utilizan el juego más que nada como una distracción, entretenimiento o por lograr la experiencia de la fantasía de infancia. Por lo mismo, han creado una comunidad alrededor del mismo que comprende compartir datos, juntarse, jugar en grupos. Cooperar, más allá de la competitividad.
 La necesidad está enfocada a completar la pokédex y conocer más sobre el Pokémon que buscan atrapar.
