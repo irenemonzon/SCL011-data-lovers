@@ -25,7 +25,9 @@ Ahora, ¡a atrapárlos!
 
 Entre las problemáticas que abordamos están encontrar una plataforma virtual que entregue información relevante para el juego a los usuarios, pero también que funcione como un lugar dónde los usuarios puedan encontrar noticias sobre eventos, aparición de nidos y técnicas para encontrar los pokémons, ya que nuestro usuario está interesado en completar la pokedex más que batallar. 
 
-## **2.2 Encuestas**
+## **2.2 Encuesta**
+
+### Google Forms
 
 Realizamos encuestas compartidas en redes sociales y grupos de pokémon go para tener un primer approach a la necesidad de nuestros usuarios, ya que en primera instancia pensamos la app con una finalidad distinta. 
 Gracias a la encuesta aterrizamos nuestra idea y pudimos direccionarla. 
@@ -49,6 +51,40 @@ Dentro de las preguntas en nuestra encuesta dejamos algunas abiertas para conoce
 - Detalles sobre nidos, spawn, lugares ideales para atrapar Pokémons
 - Dulces para evolucionar
 - Eventos, noticias relacionadas al juego y a la comunidad
+
+> Para conocer todas las preguntas de nuestro **Google Form**. Puedes ver la encuesta clickeando [aquí!](https://forms.gle/f3wi4LgnPCNXpAVZ6.
+
+
+### Audios
+
+Seleccionamos jugadores en específico que quisieron acceder a la entrevista vía whatsapp. 
+Las preguntas que realizamos fueron las siguientes: 
+1. Primero me gustaría saber cuál es tu edad y en qué nivel del juego estás?
+2. Por qué te gusta jugar Pokémon Go o qué te gusta del juego?
+3. Consideras que para tí es más importante batallar o evolucionar a tus pokémons?
+4. "En las siguientes dos preguntas te voy a dar algunas opciones entre las que debes elegir, considerando cuales crees tú que son más importantes. Puedes elegir más de una opción"
+Entre estas opciones, qué información crees que te serviría para mejorar tu estrategia de juego?
+- Altura y Peso
+- Tipo
+- Cantidad de dulces que requieren
+- Debilidades
+- Posibilidades y tiempo de aparición
+
+5. Considerando estos temas, qué estadísticas te gustaría conocer?
+- Tipo
+- Debilidades
+- Huevos
+- Posibilidades y tiempo de aparición
+
+6. Finalmente, según tu experiencia en el juego me gustaría saber qué contenido crees que sería relevante en una página de pókemon go?
+
+Acá está el registro de nuestras conversaciones:
+![Alfredo](https://i.ibb.co/PCwXZkf/Entrevista-Alfredo.png)
+![Coni](https://i.ibb.co/VS3vpxk/Entrevista-Coni.png)
+![Navia](https://i.ibb.co/gVgH5cf/Entrevista-Navia.png)
+
+> Puedes oír los audios de nuestros entrevistados en nuestra carpeta de **Dropbox**. Si atrapas el siguiente [link!](https://www.dropbox.com/sh/wa3i90o2bqgs0er/AADwYPFw-R8rQl9Iu16rDk53a?dl=0).
+
 
 **Conclusiones:**
 Rescatamos de estas respuestas que nuestros usuarios utilizan el juego más que nada como una distracción, entretenimiento o por lograr la experiencia de la fantasía de infancia. Por lo mismo, han creado una comunidad alrededor del mismo que comprende compartir datos, juntarse, jugar en grupos. Cooperar, más allá de la competitividad.
@@ -172,11 +208,10 @@ La familia tipográfica utilizada es Ubuntu.
 ![Visualización de la ficha](https://i.ibb.co/DCmtJM5/Visualizacio-n-del-Pokemon.png)
 ![Vista de los distintos tipos](https://i.ibb.co/q7XLhSW/Visualizacio-n-por-tipo.png)
 
-> Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
+> Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](https://www.figma.com/proto/sKfU91fW3dgQ80GwznrR6E/Pok%C3%A9mon-Wireframes-Alta-Copy?node-id=26%3A101&scaling=min-zoom).
 
 # **5. Test de Usuario**
 ## **5.1 Testeos e Insight**
-## **5.2 Evaluación Heurística**
 
 # **6. Prototipo Interactivo**
 
