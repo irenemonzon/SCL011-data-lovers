@@ -27,6 +27,8 @@ Entre las problemáticas que abordamos están encontrar una plataforma virtual q
 
 ## **2.2 Encuestas**
 
+### Google Forms
+
 Realizamos encuestas compartidas en redes sociales y grupos de pokémon go para tener un primer approach a la necesidad de nuestros usuarios, ya que en primera instancia pensamos la app con una finalidad distinta. 
 Gracias a la encuesta aterrizamos nuestra idea y pudimos direccionarla. 
 La primera encuesta fue realizada mediante la herramienta *Google forms*.
@@ -49,6 +51,38 @@ Dentro de las preguntas en nuestra encuesta dejamos algunas abiertas para conoce
 - Detalles sobre nidos, spawn, lugares ideales para atrapar Pokémons
 - Dulces para evolucionar
 - Eventos, noticias relacionadas al juego y a la comunidad
+
+
+
+### Audios
+
+Seleccionamos jugadores en específico que quisieron acceder a la entrevista vía whatsapp. 
+Las preguntas que realizamos fueron las siguientes: 
+1. Primero me gustaría saber cuál es tu edad y en qué nivel del juego estás?
+2. Por qué te gusta jugar Pokémon Go o qué te gusta del juego?
+3. Consideras que para tí es más importante batallar o evolucionar a tus pokémons?
+4. "En las siguientes dos preguntas te voy a dar algunas opciones entre las que debes elegir, considerando cuales crees tú que son más importantes. Puedes elegir más de una opción"
+Entre estas opciones, qué información crees que te serviría para mejorar tu estrategia de juego?
+- Altura y Peso
+- Tipo
+- Cantidad de dulces que requieren
+- Debilidades
+- Posibilidades y tiempo de aparición
+
+5. Considerando estos temas, qué estadísticas te gustaría conocer?
+- Tipo
+- Debilidades
+- Huevos
+- Posibilidades y tiempo de aparición
+
+6. Finalmente, según tu experiencia en el juego me gustaría saber qué contenido crees que sería relevante en una página de pókemon go?
+
+Acá está el registro de nuestras conversaciones:
+![Alfredo](https://i.ibb.co/PCwXZkf/Entrevista-Alfredo.png)
+![Coni](https://i.ibb.co/VS3vpxk/Entrevista-Coni.png)
+![Navia](https://i.ibb.co/gVgH5cf/Entrevista-Navia.png)
+
+> Puedes oír los audios de nuestros entrevistados en nuestra carpeta de **Dropbox**. Si atrapas el siguiente [link!](https://www.dropbox.com/sh/wa3i90o2bqgs0er/AADwYPFw-R8rQl9Iu16rDk53a?dl=0).
 
 **Conclusiones:**
 Rescatamos de estas respuestas que nuestros usuarios utilizan el juego más que nada como una distracción, entretenimiento o por lograr la experiencia de la fantasía de infancia. Por lo mismo, han creado una comunidad alrededor del mismo que comprende compartir datos, juntarse, jugar en grupos. Cooperar, más allá de la competitividad.
@@ -175,8 +209,10 @@ La familia tipográfica utilizada es Ubuntu.
 > Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
 # **5. Test de Usuario**
+
 ## **5.1 Testeos e Insight**
-## **5.2 Evaluación Heurística**
+Realizamos un testeo de usabilidad con el producto final.
+> Revisa un video de nuestro test en **Loom** 👉🏼 [aquí](https://www.loom.com/share/574cd2e6443745b7919185cc2ad53183).
 
 # **6. Prototipo Interactivo**
 
@@ -192,6 +228,7 @@ En el producto final,el usuario puede visualizar en un inicio los 150 pokemons d
 Tambien se realizó un modelo responsive para que el usuario tambien lo pueda visualizar desde su celular
 ![Visualizacion del ficha pokemon](https://i.ibb.co/KyMwBhz/responsive.png)
 
+> ¿Quieres verlo funcionar? Anda ahora mismo a revisar nuestro **Github** 🚀 [aquí](https://nicole-lastra.github.io/SCL011-data-lovers/src/index.html).
 
 ## **6.2 Logros a considerar en próxima iteración**
 
@@ -205,5 +242,4 @@ Tambien se realizó un modelo responsive para que el usuario tambien lo pueda vi
     
 - Añadir noticias y eventos de pokemon Go.
 
- >Puedes Visualizar nuestra Pagina de Pokemon Data clickeando [aquí](https://irenemonzon.github.io/SCL011-data-lovers/src/index.html).
     
