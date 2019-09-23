@@ -4,7 +4,10 @@
 
 * [Preámbulo](#preámbulo)
 * [Problemática y Definición de Usuario](#2.-poblematica-y-definicion-de-usuario)
-* [Diseño](#3.-diseño)
+* [Definición del Producto](#3.-definicion-del-producto)
+* [Diseño](4.-diseño)
+* [Test de Usuario](5.-test-de-usuario)
+* [Prototipo Interactivo](6.-prototipo-interactivo)
 
 ***
 
@@ -141,6 +144,8 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 
 ### Paleta de color
 ![Paleta de color](https://i.ibb.co/zJcb98G/Paleta-de-color.png)
+
+### Gradientes de color 
 ![Gradiente de color](https://i.ibb.co/4102d28/Gradiente-de-color.png)
 ![Gradiente Alternativa](https://i.ibb.co/hfqFKqW/Gradiente-de-color-alternativa.png)
 
@@ -151,9 +156,8 @@ La familia tipográfica utilizada es Ubuntu.
 > Puedes conocer el Specimen de la tipografía en **Google Fonts** [link!](https://fonts.google.com/specimen/Ubuntu
 ).
 
-### Elementos Gráficos
-
 ## **4.4 Prototipo de Alta Fidelidad**
+
  ### Prototipo Alta Fidelidad NRO.1
 ![Visualización de la ficha](https://i.ibb.co/zNrKptG/Visualizacio-n-del-Pokemon.png)
 ![Vista de los distintos tipos](https://i.ibb.co/2qTpzTV/Visualizacio-n-por-tipo.png)
