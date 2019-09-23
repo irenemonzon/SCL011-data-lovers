@@ -171,5 +171,14 @@ La familia tipográfica utilizada es Ubuntu.
 # **6. Prototipo Interactivo**
 
 ## **6.1 Nuestro Producto Final**
+<a href="https://ibb.co/3rrFdR0"><img src="https://i.ibb.co/NVVNCTL/Captura-de-pantalla-de-2019-09-23-12-51-05.png" alt="Captura-de-pantalla-de-2019-09-23-12-51-05" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>foto internet</a><br />
 
 ## **6.2 Logros a considerar en próxima iteración**
+
+    * Eliminación del Boton Ver ficha y lograr el link a la ficha del pokemon con la imagen del mismo.
+
+    * Visualizar ficha del pokemon despues que el usuario filtre y ordene los pokemons
+
+    * Menu de busqueda por nombre del pokemon.
+
+    * Realizar un menu desplegable
