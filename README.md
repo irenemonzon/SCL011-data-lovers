@@ -1,4 +1,4 @@
-# **Data Lovers**
+# **Proyecto Data Lovers**
 
 ## **Índice**
 
@@ -10,6 +10,8 @@
 * [Prototipo Interactivo](6.-prototipo-interactivo)
 
 ***
+
+![Logo Pokémon Data](https://i.ibb.co/529gtdg/Logo-Poke-Data.png)
 
 # **1. Preámbulo**
 
@@ -130,29 +132,29 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 ## **4.2 Wireframes**
  
  Comenzamos a trabajar en un prototipo de baja fidelidad considerando los niveles de navegación de nuestro mapa de flujo, el diseño fue pensado también como un responsive.
-
-![Prototipo Baja](https://i.ibb.co/6vMNBB6/Desktop.png)
-![Prototipo Baja](https://i.ibb.co/pdDjV2g/Desktop-3.png)
-![Prototipo Baja](https://i.ibb.co/5v9ftgP/Desktop-1.png)
-![Prototipo Baja](https://i.ibb.co/1Zmbd71/Desktop-4.png)
-![Prototipo Baja](https://i.ibb.co/kQv13FT/Desktop-4.png)
-![Prototipo Baja](https://i.ibb.co/xHxW78R/Desktop-6.png)
-![Prototipo Baja](https://i.ibb.co/NjvPdhX/Desktop-6.png)
+ 
+![Prototipo Baja](https://i.ibb.co/kQdPx0D/Desktop-1.png)
+![Prototipo Baja](https://i.ibb.co/M2YvkCw/Desktop-2.png)
+![Prototipo Baja](https://i.ibb.co/31YQ4fH/Desktop-3.png)
+![Prototipo Baja](https://i.ibb.co/ZYC3kC4/Desktop-4.png)
+![Prototipo Baja](https://i.ibb.co/LCRTSTc/Desktop-5.png)
+![Prototipo Baja](https://i.ibb.co/G3Ljsqd/Desktop-6.png)
+![Prototipo Baja](https://i.ibb.co/N924GF0/Desktop-7.png)
 
 > Puedes probar nuestro prototipo de baja en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
 ## **4.3 Decisiones de Diseño**
 
 ### Paleta de color
-![Paleta de color](https://i.ibb.co/zJcb98G/Paleta-de-color.png)
+![Paleta de color](https://i.ibb.co/BZrdRct/Paleta-de-color.png)
 
 ### Gradientes de color 
-![Gradiente de color](https://i.ibb.co/4102d28/Gradiente-de-color.png)
-![Gradiente Alternativa](https://i.ibb.co/hfqFKqW/Gradiente-de-color-alternativa.png)
+![Gradiente de color](https://i.ibb.co/d0xn3wq/Gradiente-de-color.png)
+![Gradiente Alternativa](https://i.ibb.co/61bykpW/Gradiente-de-color-alternativa.png)
 
 ### Tipografía
 La familia tipográfica utilizada es Ubuntu. 
-![Familia Tipográfica](https://i.ibb.co/zV1x6dS/ubuntu.png)
+![Familia Tipográfica](https://i.ibb.co/HGtKBWb/ubuntu.png)
 
 > Puedes conocer el Specimen de la tipografía en **Google Fonts** [link!](https://fonts.google.com/specimen/Ubuntu
 ).
@@ -160,9 +162,10 @@ La familia tipográfica utilizada es Ubuntu.
 ## **4.4 Prototipo de Alta Fidelidad**
 
  ### Prototipo Alta Fidelidad 1
-![Prototipo de Alta](https://i.ibb.co/GJtbgM2/Prototipo-De-Alta.png)
-![Visualización de la ficha](https://i.ibb.co/zNrKptG/Visualizacio-n-del-Pokemon.png)
-![Vista de los distintos tipos](https://i.ibb.co/2qTpzTV/Visualizacio-n-por-tipo.png)
+
+![Prototipo de Alta](https://i.ibb.co/GvLsFXZ/Prototipo-De-Alta.png)
+![Visualización de la ficha](https://i.ibb.co/DCmtJM5/Visualizacio-n-del-Pokemon.png)
+![Vista de los distintos tipos](https://i.ibb.co/q7XLhSW/Visualizacio-n-por-tipo.png)
 
 > Puedes probar nuestro prototipo de alta en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
