@@ -228,7 +228,6 @@ select{
   color: #FFF;
   font-size: 10pt;
   margin: 10px 0 0 0;
-  transition: all 0.2s ease 0s;
   cursor: pointer;
   outline: none;
   border-color: #ffffff;
@@ -310,10 +309,6 @@ select{
 }
 
 .buttonclose:hover{
-  background-color: #0DC3C6;
-}
-
-.buttonclose:active{
   background-color: #0DC3C6;
 }
 
