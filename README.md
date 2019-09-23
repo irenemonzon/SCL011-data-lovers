@@ -171,14 +171,22 @@ La familia tipográfica utilizada es Ubuntu.
 # **6. Prototipo Interactivo**
 
 ## **6.1 Nuestro Producto Final**
-<a href="https://ibb.co/3rrFdR0"><img src="https://i.ibb.co/NVVNCTL/Captura-de-pantalla-de-2019-09-23-12-51-05.png" alt="Captura-de-pantalla-de-2019-09-23-12-51-05" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>foto internet</a><br />
+
+En el producto final,el usuario puede visualizar en un inicio los 150 pokemons de la region Kanto, pudiendo dar click y observar a mas detalle de las caracteristicas del pokemon a seleccionar.Teniendo tambien un menu para poder filtrar a los pokemons por tipo y debilidad y poder visualizarlos por orden alfabetico.
+
+![Visualizacion del producto final](https://i.ibb.co/f1DFLhh/0a7a03ed-ad46-489a-a140-53324b5939f5.jpg)
+![Visualizacion del producto final](https://i.ibb.co/YZr9pJC/todos-los-pokemons.png)
+![Visualizacion del producto final](https://i.ibb.co/x7GvJ6P/modal.jpg)
 
 ## **6.2 Logros a considerar en próxima iteración**
 
-    * Eliminación del Boton Ver ficha y lograr el link a la ficha del pokemon con la imagen del mismo.
+    - Eliminación del Boton Ver ficha y lograr el link a la ficha del pokemon con la imagen del mismo.
 
-    * Visualizar ficha del pokemon despues que el usuario filtre y ordene los pokemons
+    - Visualizar ficha del pokemon despues que el usuario filtre y ordene los pokemons
 
-    * Menu de busqueda por nombre del pokemon.
+    - Añadir menu de busqueda por nombre del pokemon.
 
-    * Realizar un menu desplegable
+    - Realizar un menu desplegable, sin select.
+    
+    - Añadir noticias y eventos de pokemon Go.
+    
