@@ -188,4 +188,6 @@ En el producto final,el usuario puede visualizar en un inicio los 150 pokemons d
 - Realizar un menu desplegable, sin select.
     
 - Añadir noticias y eventos de pokemon Go.
+
+ >Puedes Visualizar nuestra Pagina de Pokemon Data clickeando [aquí](https://irenemonzon.github.io/SCL011-data-lovers/src/index.html).
     
