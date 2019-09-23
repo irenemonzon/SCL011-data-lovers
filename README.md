@@ -140,13 +140,13 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 ## **4.3 Decisiones de Diseño**
 
 ### Paleta de color
-![Paleta de color](https://ibb.co/9tX2Kws)
-![Gradiente de color](https://ibb.co/sWXCHCK)
-![Gradiente Alternativa](https://ibb.co/zJkVSkR)
+![Paleta de color](https://i.ibb.co/zJcb98G/Paleta-de-color.png)
+![Gradiente de color](https://i.ibb.co/4102d28/Gradiente-de-color.png)
+![Gradiente Alternativa](https://i.ibb.co/hfqFKqW/Gradiente-de-color-alternativa.png)
 
 ### Tipografía
 La familia tipográfica utilizada es Ubuntu. 
-![Familia Tipográfica](https://ibb.co/yFDP428)
+![Familia Tipográfica](https://i.ibb.co/zV1x6dS/ubuntu.png)
 
 > Puedes conocer el Specimen de la tipografía en **Google Fonts** [link!](https://fonts.google.com/specimen/Ubuntu
 ).
