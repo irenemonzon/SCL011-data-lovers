@@ -29,11 +29,12 @@ Realizamos encuestas compartidas en redes sociales y grupos de pokémon go para 
 Gracias a la encuesta aterrizamos nuestra idea y pudimos direccionarla. 
 La primera encuesta fue realizada mediante la herramienta *Google forms*.
 
-->![Rango etáreo](https://i.ibb.co/QcmBfwS/Encuestas-1.png)<-
-->![Expertise en el juego](https://i.ibb.co/CVJcxH1/Encuestas-4.png)<-
-->![Cómo usan la aplicación](https://i.ibb.co/4sqN7vJ/Encuestas-2.png)<-
-->![Informacion relevante](https://i.ibb.co/mBZdTNz/Encuestas-3.png)<-
-->![Estadísticas de interés](https://i.ibb.co/jzYVXBZ/Encuestas-5.png)<-
+<span style="display:block;text-align:center">
+![Rango etáreo](https://i.ibb.co/QcmBfwS/Encuestas-1.png)
+![Expertise en el juego](https://i.ibb.co/CVJcxH1/Encuestas-4.png)
+![Cómo usan la aplicación](https://i.ibb.co/4sqN7vJ/Encuestas-2.png)
+![Informacion relevante](https://i.ibb.co/mBZdTNz/Encuestas-3.png)
+![Estadísticas de interés](https://i.ibb.co/jzYVXBZ/Encuestas-5.png)</span>
 
 Dentro de las preguntas en nuestra encuesta dejamos algunas abiertas para conocer de forma más personal la relación que tiene el usuario con la app y qué consideraban ellos como temáticas importantes de abordar en un producto asociado al juego. Entre estas respuestas rescatamos lo más repetido y lo que nos pareció fundamentales para el desarrollo de la aplicación e historias de usuario: 
 
@@ -159,7 +160,7 @@ La familia tipográfica utilizada es Ubuntu.
 ## **4.4 Prototipo de Alta Fidelidad**
 
  ### Prototipo Alta Fidelidad 1
-->![Prototipo de Alta](https://i.ibb.co/GJtbgM2/Prototipo-De-Alta.png)<-
+-> ![Prototipo de Alta](https://i.ibb.co/GJtbgM2/Prototipo-De-Alta.png) <-
 ->![Visualización de la ficha](https://i.ibb.co/zNrKptG/Visualizacio-n-del-Pokemon.png)<-
 ->![Vista de los distintos tipos](https://i.ibb.co/2qTpzTV/Visualizacio-n-por-tipo.png)<-
 
