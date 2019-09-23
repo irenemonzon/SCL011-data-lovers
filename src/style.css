@@ -260,6 +260,7 @@ select{
   background-color: #ffffff;
   width: 60%;
   height: 60%;
+  padding: 40px;
 
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.084);
@@ -269,11 +270,11 @@ select{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "modal-image button-modal"
+  grid-template-areas: "modal-image type-modal"
                        "modal-image type-modal"
                        "modal-image info-modal"
                        "modal-image info-modal"
-                       "modal-image info-modal";
+                       "button-modal button-modal";
 }
 
 .modal-image{
@@ -293,13 +294,18 @@ select{
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
-  margin: 50px 0;
+  margin: auto;
 }
 
 .buttonclose{
   grid-area: button-modal;
-  width: 20%;
-  margin: 5px;
+  width: 80%;
+  margin: 20px;
+  background-color: #4966E1;
+  border-radius: 30px;
+  padding: 5px;
+  color: #FFF;
+  font-size: 12pt;
 }
 
 .modal-name{
@@ -317,7 +323,7 @@ select{
   color: #ffffff;  
 
   width: 20%;
-  background-color: #4966E1;
+  background-color: #2BDABB;
   padding: 5px;
   border-radius: 30px;
   margin: 5px;
@@ -330,7 +336,7 @@ select{
 }
 
 
-@media screen and (max-width: 768px){
+@media (min-width:481px) and (max-width: 768px){
   .container{
     grid-gap:20px;
       grid-template-areas: "select select select select"
@@ -377,6 +383,7 @@ select{
 .dataModal{
   width: 90%;
   height: 90%;
+  padding: 10px;
 
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -396,11 +403,11 @@ select{
 
 .info-modal{
   grid-area: info-modal;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  align-items: center;
+  align-content: flex-start;
+  align-items: flex-start;
   margin: 50px 0;
 }
 
@@ -414,5 +421,26 @@ select{
 
 }
 
+@media (min-width:768px) and (max-width: 1024px){
 
+  .menu{
+    height: 200px;
+  }
 
+}
+
+@media (min-width:1025px) and (max-width: 1280px){
+
+  .menu{
+    height: 300px;
+  }
+
+}
+
+@media (min-width:1281px){
+
+  .menu{
+    height: 400px;
+  }
+
+}

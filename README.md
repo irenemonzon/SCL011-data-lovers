@@ -31,12 +31,11 @@ Realizamos encuestas compartidas en redes sociales y grupos de pokémon go para 
 Gracias a la encuesta aterrizamos nuestra idea y pudimos direccionarla. 
 La primera encuesta fue realizada mediante la herramienta *Google forms*.
 
-
-![Rango etáreo](https://i.ibb.co/QcmBfwS/Encuestas-1.png)
-![Expertise en el juego](https://i.ibb.co/CVJcxH1/Encuestas-4.png)
-![Cómo usan la aplicación](https://i.ibb.co/4sqN7vJ/Encuestas-2.png)
-![Informacion relevante](https://i.ibb.co/mBZdTNz/Encuestas-3.png)
-![Estadísticas de interés](https://i.ibb.co/jzYVXBZ/Encuestas-5.png)
+![Rango etáreo](https://i.ibb.co/v4hTDpS/Encuestas-1.png)
+![Expertise en el juego](https://i.ibb.co/bvNx8b8/Encuestas-4.png)
+![Cómo usan la aplicación](https://i.ibb.co/6YL873y/Encuestas-2.png)
+![Informacion relevante](https://i.ibb.co/zxmYwrh/Encuestas-3.png)
+![Estadísticas de interés](https://i.ibb.co/qn283Jb/Encuestas-5.png)
 
 Dentro de las preguntas en nuestra encuesta dejamos algunas abiertas para conocer de forma más personal la relación que tiene el usuario con la app y qué consideraban ellos como temáticas importantes de abordar en un producto asociado al juego. Entre estas respuestas rescatamos lo más repetido y lo que nos pareció fundamentales para el desarrollo de la aplicación e historias de usuario: 
 
@@ -146,6 +145,8 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 ## **4.3 Decisiones de Diseño**
 
 ### Paleta de color
+Esta paleta de color fue utilizada en el prototipo útil final, la paleta de color utilizada anteriormente en el primer prototipo de alta fidelidad fue descartada ya que al testar a los usuarios no consideraron atractiva la combinación de color azul y naranaja. Por esto la cambiamos a colores más agradables y suaves.  
+
 ![Paleta de color](https://i.ibb.co/BZrdRct/Paleta-de-color.png)
 
 ### Gradientes de color 
@@ -156,7 +157,7 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 La familia tipográfica utilizada es Ubuntu. 
 ![Familia Tipográfica](https://i.ibb.co/HGtKBWb/ubuntu.png)
 
-> Puedes conocer el Specimen de la tipografía en **Google Fonts** [link!](https://fonts.google.com/specimen/Ubuntu
+> ¿Te gustaría utilizarla? Puedes conocer el Specimen de la tipografía en **Google Fonts** en el siguiente [link!](https://fonts.google.com/specimen/Ubuntu
 ).
 
 ## **4.4 Prototipo de Alta Fidelidad**
