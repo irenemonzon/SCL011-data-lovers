@@ -138,8 +138,19 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 > Puedes probar nuestro prototipo de baja en **Figma** clickeando [aquí](http://figma.com/proto/26mAxqaD19WwvAz7E68i1A/Pokémon-Wireframes-Baja?node-id=31%3A81&scaling=min-zoom).
 
 ## **4.3 Decisiones de Diseño**
+
 ### Paleta de color
+![Paleta de color](https://ibb.co/9tX2Kws)
+![Gradiente de color](https://ibb.co/sWXCHCK)
+![Gradiente Alternativa](https://ibb.co/zJkVSkR)
+
 ### Tipografía
+La familia tipográfica utilizada es Ubuntu. 
+![Familia Tipográfica](https://ibb.co/yFDP428)
+
+> Puedes conocer el Specimen de la tipografía en **Google Fonts** [link!](https://fonts.google.com/specimen/Ubuntu
+).
+
 ### Elementos Gráficos
 
 ## **4.4 Prototipo de Alta Fidelidad**
@@ -154,5 +165,7 @@ Nuestra planificación se realizó en torno a las historias de usuario, definimo
 ## **5.2 Evaluación Heurística**
 
 # **6. Prototipo Interactivo**
+
 ## **6.1 Nuestro Producto Final**
+
 ## **6.2 Logros a considerar en próxima iteración**
