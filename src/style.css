@@ -5,7 +5,19 @@
 
 body{
   font-family:'Ubuntu', sans-serif;
-  margin: 5%;
+  margin: 20px 5%;
+}
+
+header{
+  width: 100%;
+  align-content: center;
+  margin: 0;
+}
+
+.logo{
+  width: 20%;
+  align-items: center;
+  margin: 0 40% 5%;
 }
 
 /*grid de la página*/
@@ -129,19 +141,32 @@ select{
 }
 
 /*contenedr de las estadísticas*/
+.statistics-bar{
+  grid-area: statistics;
+  display: flex;
+  flex-direction: row;
+}
 .statistics{
- grid-area: statistics;
-
  width: 97%;
- height: 40px;
+ height: 80px;
  border-radius: 10px;
- margin: auto auto 6px;
- background-color: darkgray;
- color: #333333;
+ margin: auto 10px 6px;
+ background-color: rgb(255, 255, 255);
+ border-color: #9C9FFF #9C9FFF #9C9FFF white solid;
+ border-width: 3px;
+
+ color: rgb(69, 13, 198);
+ text-align: left;
+ font-size: 18pt;
+ font-weight: bold;
 
  display: flex;
  align-items: center;
- justify-content: center;
+ justify-content: flex-start;
+}
+
+.pokedex-icon{
+  height: 80px;
 }
 
 /*contenedor de los pokémons*/
@@ -255,7 +280,7 @@ select{
   grid-area: modal-image;
   width: 200px;
   margin: auto;
-  align-self: center
+  align-self: center;
 }
 
 /* alineación de los textos del modal */
@@ -337,9 +362,54 @@ select{
     margin: auto;
   }
 
+  .return-button{
+    padding: 2%;
+    width: 80%;
+  }
+
   .statistics{
     grid-area: statistics;
     text-align: center;
+}
+
+/* Disposición de la Modal Responsive */
+
+.dataModal{
+  width: 90%;
+  height: 90%;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "modal-image"
+                       "type-modal"
+                       "info-modal"
+                       "info-modal"
+                       "info-modal"
+                       "button-modal";
+}
+
+.modal-image{
+  grid-area: modal-image;
+  width: 150px;
+}
+
+.info-modal{
+  grid-area: info-modal;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.buttonclose{
+  grid-area: button-modal;
+}
+
+.type-modal{
+  grid-area: type-modal;
 }
 
 }
