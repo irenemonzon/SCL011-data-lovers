@@ -110,6 +110,7 @@ Aprecia pertenecer a una comunidad unida que comparte información y que tiene u
 |Jugador de Pokémon|`ordenar los personajes según el alfabeto`|encontrar más rápidamente alguno en específico|
 |Jugador de Pokémon|`ver estadísticas sobre aparición y debilidades de mi pokémon`|crear estratégias que me ayuden a evolucionarlo y atraparlo con mayor facilidad|
 
+
 ## **2.5 Criterios de aceptación y requerimientos DOD**
 - Mostrar la lista de todos los pokémons según su número en la pokedex
 - Filtrar los pokémons según su tipo
