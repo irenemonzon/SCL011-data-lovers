@@ -1,4 +1,15 @@
-const listpokemon = window.POKEMON.pokemon;
+    fetch('./data/pokemon/pokemon.json')
+
+    .then(function(res){
+        return res.json();
+    
+    })
+
+    .then(function(data){
+       const listpokemon= data.pokemon;
+        //console.log(listpokemon);
+
+        
 
 // recorrer el array y mostrar imagen, numero y nombre de 151 pokemones
 for(let i = 0; i < listpokemon.length; i++){
@@ -139,9 +150,30 @@ function showfilter(){
 
     showfilterpokemon.innerHTML= pokemonfilter.map (element => {
         return  `<div class="pokemon-info">
-                      <a href="#"  id="pokemoncard" ><img  src="${element.img}"></a>
+                      <img  src="${element.img}">
                       <h3 class="pokemon-number"># ${element.num}</h3>
                       <h1 class= "pokemon-name"> ${element.name}</h1>
+                      <a href="#modalbutton" class="modal-button">Ver Ficha</a>
+
+                         <div class="principalModal2" id="modalbutton">
+                            <div class="dataModal">
+
+                                <img class="modal-image" src="${element.img}">
+                                <div class="info-modal">
+                                     <h3 class="pokemon-number"> # ${element.num}</h3>
+                                     <h1 class="modal-name"> ${element.name}</h1>
+                                     <h2 class="type-modal">${element.type[0]}</h2>
+                                     <h2 class="type-modal">${element.type[1]}</h2>
+                                     <h3 class="text-modal">Altura: ${element.height}</h3>
+                                     <h3 class="text-modal">Peso: ${element.weight}</h3>
+                                     <h3 class="text-modal">Huevos: ${element.egg}</h3>
+                                     <h3 class="text-modal">Promedio de Aparición: ${element.avg_spawns } /10.000</h3>
+                                     <button class="buttonclose"><a href="#" >Volver a la Pokédex"</a></button>
+
+                                </div>
+                            </div>
+                         </div>
+
                    </div>`        
                   }).join("");
 }
@@ -157,21 +189,59 @@ function showorden(){
 
     showordenpokemon.innerHTML= ordenpokemonup.map (element => {
         return  `<div class="pokemon-info">
-                 <a href=# id="pokemoncard" ><img  src="${element.img}"></a>
-                 <h3 class="pokemon-number"># ${element.num}</h3>
-                 <h1 class="pokemon-name"> ${element.name}</h1>
-                 </div>`        
-                 }).join(""); 
+                    <img  src="${element.img}">
+                    <h3 class="pokemon-number"># ${element.num}</h3>
+                    <h1 class= "pokemon-name"> ${element.name}</h1>
+                 <a href="#modalbutton" class="modal-button">Ver Ficha</a>
+
+                <div class="principalModal2" id="modalbutton">
+                <div class="dataModal">
+                <img class="modal-image" src="${element.img}">
+                 <div class="info-modal">
+                     <h3 class="pokemon-number"> # ${element.num}</h3>
+                     <h1 class="modal-name"> ${element.name}</h1>
+                    <h2 class="type-modal">${element.type[0]}</h2>
+                    <h2 class="type-modal">${element.type[1]}</h2>
+                    <h3 class="text-modal">Altura: ${element.height}</h3>
+                    <h3 class="text-modal">Peso: ${element.weight}</h3>
+                    <h3 class="text-modal">Huevos: ${element.egg}</h3>
+                     <h3 class="text-modal">Promedio de Aparición: ${element.avg_spawns } /10.000</h3>
+                     <button class="buttonclose"><a href="#" >Volver a la Pokédex"</a></button>
+             </div>
+             </div>
+             </div>
+
+            </div>`        
+            }).join(""); 
 
     let ordenpokemondown = window.data.ordenpokemon(listpokemon,ordenpokemon1) 
     showordenpokemon.innerHTML= ordenpokemondown.map (element => {
         return  `<div class="pokemon-info">
-                 <a href=# id="pokemonImg" value="id"><img  src="${element.img}"></a>
-                 <h3 class="pokemon-number"># ${element.num}</h3>
-                 <h1 class="pokemon-name"> ${element.name}</h1>
-                 </div>`        
+                    <img  src="${element.img}">
+                    <h3 class="pokemon-number"># ${element.num}</h3>
+                    <h1 class= "pokemon-name"> ${element.name}</h1>
+                    <a href="#modalbutton" class="modal-button">Ver Ficha</a>
+
+                    <div class="principalModal2" id="modalbutton">
+                        <div class="dataModal">
+                            <img class="modal-image" src="${element.img}">
+                        <div class="info-modal">
+                            <h3 class="pokemon-number"> # ${element.num}</h3>
+                            <h1 class="modal-name"> ${element.name}</h1>
+                            <h2 class="type-modal">${element.type[0]}</h2>
+                            <h2 class="type-modal">${element.type[1]}</h2>
+                            <h3 class="text-modal">Altura: ${element.height}</h3>
+                            <h3 class="text-modal">Peso: ${element.weight}</h3>
+                            <h3 class="text-modal">Huevos: ${element.egg}</h3>
+                            <h3 class="text-modal">Promedio de Aparición: ${element.avg_spawns } /10.000</h3>
+                            <button class="buttonclose"><a href="#" >Volver a la Pokédex"</a></button>
+                        </div>
+                        </div>
+                     </div>
+
+                </div>`        
                  }).join("");
-   }
+            }
 
    //Filtrado por Debilidad
    const pokemonWeakness = document.getElementById("pokemonWeakness");
@@ -192,12 +262,31 @@ function showorden(){
 
  
    weaknessResult.innerHTML= weaknessFilter.map(element =>{
-       return `<div class="pokemon-info">
-              <a href=# id="pokemoncard"><img src="${element.img}"></a>
-              <h3 class = "pokemon-number"># ${element.num}</h3>
-              <h1 class="pokemon-name">${element.name}</h1>
-              </div>`
-              }).join("");
+    return  `<div class="pokemon-info">
+                     <img  src="${element.img}">
+                     <h3 class="pokemon-number"># ${element.num}</h3>
+                     <h1 class= "pokemon-name"> ${element.name}</h1>
+                     <a href="#modalbutton" class="modal-button">Ver Ficha</a>
+
+                    <div class="principalModal2" id="modalbutton">
+                    <div class="dataModal">
+                        <img class="modal-image" src="${element.img}">
+                    <div class="info-modal">
+                        <h3 class="pokemon-number"> # ${element.num}</h3>
+                        <h1 class="modal-name"> ${element.name}</h1>
+                        <h2 class="type-modal">${element.type[0]}</h2>
+                        <h2 class="type-modal">${element.type[1]}</h2>
+                        <h3 class="text-modal">Altura: ${element.height}</h3>
+                        <h3 class="text-modal">Peso: ${element.weight}</h3>
+                        <h3 class="text-modal">Huevos: ${element.egg}</h3>
+                        <h3 class="text-modal">Promedio de Aparición: ${element.avg_spawns } /10.000</h3>
+                        <button class="buttonclose"><a href="#" >Volver a la Pokédex"</a></button>
+                     </div>
+                 </div>
+                </div>
+
+            </div>`        
+            }).join("");
    }
 
  // boton de regresar    
@@ -208,3 +297,7 @@ returnhome.addEventListener('click',()=>{
 
 });
 
+      
+        })
+
+    
